@@ -1,0 +1,305 @@
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store}{\section{cheshire3.\-base\-Store.\-Directory\-Store Class Reference}
+\label{classcheshire3_1_1base_store_1_1_directory_store}\index{cheshire3.\-base\-Store.\-Directory\-Store@{cheshire3.\-base\-Store.\-Directory\-Store}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Store.\-Directory\-Store\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Store.\-Directory\-Store\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_a26c745d493d399631d9b8f24d9ed5360}{def {\bfseries \-\_\-\-\_\-init\-\_\-\-\_\-}}\label{classcheshire3_1_1base_store_1_1_directory_store_a26c745d493d399631d9b8f24d9ed5360}
+
+\item 
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_a19d947ae46120038de8f3a533ed0ef4e}{def {\bfseries \-\_\-\-\_\-iter\-\_\-\-\_\-}}\label{classcheshire3_1_1base_store_1_1_directory_store_a19d947ae46120038de8f3a533ed0ef4e}
+
+\item 
+def \hyperlink{classcheshire3_1_1base_store_1_1_directory_store_aeaca13697dd55efafee99e90b5de58d9}{generate\-\_\-id}
+\item 
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_a59fc403bf2c42e4659f96d1fa19a3235}{def {\bfseries get\-\_\-storage\-Types}}\label{classcheshire3_1_1base_store_1_1_directory_store_a59fc403bf2c42e4659f96d1fa19a3235}
+
+\item 
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_a36f9ac16715037baddcab1b3af9bdd79}{def {\bfseries get\-\_\-reverse\-Metadata\-Types}}\label{classcheshire3_1_1base_store_1_1_directory_store_a36f9ac16715037baddcab1b3af9bdd79}
+
+\item 
+def \hyperlink{classcheshire3_1_1base_store_1_1_directory_store_a739bfdade23677f5017e1055ceab19ff}{get\-\_\-db\-Size}
+\item 
+def \hyperlink{classcheshire3_1_1base_store_1_1_directory_store_ab8021265d36be63cd760e6677bde2877}{delete\-\_\-data}
+\item 
+def \hyperlink{classcheshire3_1_1base_store_1_1_directory_store_aa6cdba97d37eea50db2d58a686336f18}{fetch\-\_\-data}
+\item 
+def \hyperlink{classcheshire3_1_1base_store_1_1_directory_store_af87471f0740e2de66f6256352f72e556}{store\-\_\-data}
+\item 
+def \hyperlink{classcheshire3_1_1base_store_1_1_directory_store_a519edf74d4480a9a439cbf4c4786f1af}{fetch\-\_\-metadata}
+\item 
+def \hyperlink{classcheshire3_1_1base_store_1_1_directory_store_acaec3f63e9700ae23994002805802266}{store\-\_\-metadata}
+\item 
+def \hyperlink{classcheshire3_1_1base_store_1_1_directory_store_a7af7135a724759a7ef3bc2918ecd6292}{clean}
+\item 
+def \hyperlink{classcheshire3_1_1base_store_1_1_directory_store_a7b1ecda957cca43691ee6a7f2ba002ed}{clear}
+\item 
+def \hyperlink{classcheshire3_1_1base_store_1_1_directory_store_ab5201c282170b8cdc4e027543ea708bd}{flush}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_ad53449d0f51daac2496e3d426c8439b4}{{\bfseries allow\-Store\-Sub\-Dirs}}\label{classcheshire3_1_1base_store_1_1_directory_store_ad53449d0f51daac2496e3d426c8439b4}
+
+\item 
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_a5efff8480a8cdf45770156454cebcbdf}{{\bfseries cxns}}\label{classcheshire3_1_1base_store_1_1_directory_store_a5efff8480a8cdf45770156454cebcbdf}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Store Objects as files in a directory on the filesystem.
+
+Really simple Store to store Objects as files within a directory (and
+possibly sub-directories). An important thing to remember is that
+files may be added/modified/deleted by an external entity.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_a7af7135a724759a7ef3bc2918ecd6292}{\index{cheshire3\-::base\-Store\-::\-Directory\-Store@{cheshire3\-::base\-Store\-::\-Directory\-Store}!clean@{clean}}
+\index{clean@{clean}!cheshire3::baseStore::DirectoryStore@{cheshire3\-::base\-Store\-::\-Directory\-Store}}
+\subsubsection[{clean}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Store.\-Directory\-Store.\-clean (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_store_1_1_directory_store_a7af7135a724759a7ef3bc2918ecd6292}
+\begin{DoxyVerb}Delete expired data objects.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_store_1_1_directory_store_a7b1ecda957cca43691ee6a7f2ba002ed}{\index{cheshire3\-::base\-Store\-::\-Directory\-Store@{cheshire3\-::base\-Store\-::\-Directory\-Store}!clear@{clear}}
+\index{clear@{clear}!cheshire3::baseStore::DirectoryStore@{cheshire3\-::base\-Store\-::\-Directory\-Store}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Store.\-Directory\-Store.\-clear (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_store_1_1_directory_store_a7b1ecda957cca43691ee6a7f2ba002ed}
+\begin{DoxyVerb}Delete all the data out of self.\end{DoxyVerb}
+ 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store_a7b1ecda957cca43691ee6a7f2ba002ed_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_ab8021265d36be63cd760e6677bde2877}{\index{cheshire3\-::base\-Store\-::\-Directory\-Store@{cheshire3\-::base\-Store\-::\-Directory\-Store}!delete\-\_\-data@{delete\-\_\-data}}
+\index{delete\-\_\-data@{delete\-\_\-data}!cheshire3::baseStore::DirectoryStore@{cheshire3\-::base\-Store\-::\-Directory\-Store}}
+\subsubsection[{delete\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Store.\-Directory\-Store.\-delete\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{identifier}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_store_1_1_directory_store_ab8021265d36be63cd760e6677bde2877}
+\begin{DoxyVerb}Delete data stored against id.\end{DoxyVerb}
+ 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store_ab8021265d36be63cd760e6677bde2877_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store_ab8021265d36be63cd760e6677bde2877_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_aa6cdba97d37eea50db2d58a686336f18}{\index{cheshire3\-::base\-Store\-::\-Directory\-Store@{cheshire3\-::base\-Store\-::\-Directory\-Store}!fetch\-\_\-data@{fetch\-\_\-data}}
+\index{fetch\-\_\-data@{fetch\-\_\-data}!cheshire3::baseStore::DirectoryStore@{cheshire3\-::base\-Store\-::\-Directory\-Store}}
+\subsubsection[{fetch\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Store.\-Directory\-Store.\-fetch\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{identifier}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_store_1_1_directory_store_aa6cdba97d37eea50db2d58a686336f18}
+\begin{DoxyVerb}Return data stored against identifier.\end{DoxyVerb}
+ 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store_aa6cdba97d37eea50db2d58a686336f18_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store_aa6cdba97d37eea50db2d58a686336f18_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_a519edf74d4480a9a439cbf4c4786f1af}{\index{cheshire3\-::base\-Store\-::\-Directory\-Store@{cheshire3\-::base\-Store\-::\-Directory\-Store}!fetch\-\_\-metadata@{fetch\-\_\-metadata}}
+\index{fetch\-\_\-metadata@{fetch\-\_\-metadata}!cheshire3::baseStore::DirectoryStore@{cheshire3\-::base\-Store\-::\-Directory\-Store}}
+\subsubsection[{fetch\-\_\-metadata}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Store.\-Directory\-Store.\-fetch\-\_\-metadata (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{identifier, }
+\item[{}]{m\-Type}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_store_1_1_directory_store_a519edf74d4480a9a439cbf4c4786f1af}
+\begin{DoxyVerb}Return mType metadata stored against identifier.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_store_1_1_directory_store_ab5201c282170b8cdc4e027543ea708bd}{\index{cheshire3\-::base\-Store\-::\-Directory\-Store@{cheshire3\-::base\-Store\-::\-Directory\-Store}!flush@{flush}}
+\index{flush@{flush}!cheshire3::baseStore::DirectoryStore@{cheshire3\-::base\-Store\-::\-Directory\-Store}}
+\subsubsection[{flush}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Store.\-Directory\-Store.\-flush (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_store_1_1_directory_store_ab5201c282170b8cdc4e027543ea708bd}
+\begin{DoxyVerb}Ensure all data is flushed to disk.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_store_1_1_directory_store_aeaca13697dd55efafee99e90b5de58d9}{\index{cheshire3\-::base\-Store\-::\-Directory\-Store@{cheshire3\-::base\-Store\-::\-Directory\-Store}!generate\-\_\-id@{generate\-\_\-id}}
+\index{generate\-\_\-id@{generate\-\_\-id}!cheshire3::baseStore::DirectoryStore@{cheshire3\-::base\-Store\-::\-Directory\-Store}}
+\subsubsection[{generate\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Store.\-Directory\-Store.\-generate\-\_\-id (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_store_1_1_directory_store_aeaca13697dd55efafee99e90b5de58d9}
+\begin{DoxyVerb}Generate and return a new unique identifier.\end{DoxyVerb}
+ 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store_aeaca13697dd55efafee99e90b5de58d9_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store_aeaca13697dd55efafee99e90b5de58d9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_a739bfdade23677f5017e1055ceab19ff}{\index{cheshire3\-::base\-Store\-::\-Directory\-Store@{cheshire3\-::base\-Store\-::\-Directory\-Store}!get\-\_\-db\-Size@{get\-\_\-db\-Size}}
+\index{get\-\_\-db\-Size@{get\-\_\-db\-Size}!cheshire3::baseStore::DirectoryStore@{cheshire3\-::base\-Store\-::\-Directory\-Store}}
+\subsubsection[{get\-\_\-db\-Size}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Store.\-Directory\-Store.\-get\-\_\-db\-Size (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_store_1_1_directory_store_a739bfdade23677f5017e1055ceab19ff}
+\begin{DoxyVerb}Return number of items in storage.\end{DoxyVerb}
+ 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store_a739bfdade23677f5017e1055ceab19ff_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_af87471f0740e2de66f6256352f72e556}{\index{cheshire3\-::base\-Store\-::\-Directory\-Store@{cheshire3\-::base\-Store\-::\-Directory\-Store}!store\-\_\-data@{store\-\_\-data}}
+\index{store\-\_\-data@{store\-\_\-data}!cheshire3::baseStore::DirectoryStore@{cheshire3\-::base\-Store\-::\-Directory\-Store}}
+\subsubsection[{store\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Store.\-Directory\-Store.\-store\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{identifier, }
+\item[{}]{data, }
+\item[{}]{metadata = {\ttfamily \{\}}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_store_1_1_directory_store_af87471f0740e2de66f6256352f72e556}
+\begin{DoxyVerb}Store data against identifier.\end{DoxyVerb}
+ 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store_af87471f0740e2de66f6256352f72e556_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_store_1_1_directory_store_af87471f0740e2de66f6256352f72e556_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_store_1_1_directory_store_acaec3f63e9700ae23994002805802266}{\index{cheshire3\-::base\-Store\-::\-Directory\-Store@{cheshire3\-::base\-Store\-::\-Directory\-Store}!store\-\_\-metadata@{store\-\_\-metadata}}
+\index{store\-\_\-metadata@{store\-\_\-metadata}!cheshire3::baseStore::DirectoryStore@{cheshire3\-::base\-Store\-::\-Directory\-Store}}
+\subsubsection[{store\-\_\-metadata}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Store.\-Directory\-Store.\-store\-\_\-metadata (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{identifier, }
+\item[{}]{m\-Type, }
+\item[{}]{value}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_store_1_1_directory_store_acaec3f63e9700ae23994002805802266}
+\begin{DoxyVerb}Store value for mType metadata against identifier.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Store.\-py\end{DoxyCompactItemize}

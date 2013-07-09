@@ -1,0 +1,9 @@
+<map id="cheshire3.baseStore.DirectoryStore.clear" name="cheshire3.baseStore.DirectoryStore.clear">
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_store_1_1_simple_store.html#a29012299841d7d7ad5021d98b25488b0" title="cheshire3.baseStore.Simple\lStore._closeAll" alt="" coords="272,5,461,46"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_store_1_1_simple_store.html#a281e85bf5e14ab621f017cc97d741b57" title="cheshire3.baseStore.Simple\lStore.get_storageTypes" alt="" coords="272,70,461,111"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1test_1_1test_result_set_1_1_fake_database.html#a54e23e60be2b70ed14eb5d0c05a6cade" title="cheshire3.test.testResult\lSet.FakeDatabase.get_path" alt="" coords="273,135,461,177"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1base_store_1_1_bdb_store.html#a2d3804ef08a7037826e1828b4e56449d" title="cheshire3.baseStore.BdbStore.\l_remove" alt="" coords="263,201,470,242"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1base_store_1_1_summary_object.html#a387659ed55518d9b87d65024c7804fe4" title="cheshire3.baseStore.Summary\lObject._initDb" alt="" coords="264,266,469,307"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1base_store_1_1_simple_store.html#a5da74c2ec9c8423a4352f645882c302a" title="cheshire3.baseStore.Simple\lStore._verifyDb" alt="" coords="272,331,461,373"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1base_store_1_1_simple_store.html#a014caef431aeaafcb3022ea18a1a55d2" title="cheshire3.baseStore.Simple\lStore.get_reverseMetadataTypes" alt="" coords="257,397,477,438"/>
+</map>

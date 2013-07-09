@@ -1,0 +1,10 @@
+<map id="cheshire3.logger.SimpleLogger" name="cheshire3.logger.SimpleLogger">
+<area shape="rect" id="node5" href="$classcheshire3_1_1logger_1_1_date_time_file_logger.html" title="cheshire3.logger.DateTime\lFileLogger" alt="" coords="866,5,1049,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1logger_1_1_function_logger.html" title="cheshire3.logger.Function\lLogger" alt="" coords="869,70,1045,111"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1logger_1_1_logging_logger.html" title="cheshire3.logger.Logging\lLogger" alt="" coords="871,135,1043,177"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1logger_1_1_multiple_logger.html" title="cheshire3.logger.Multiple\lLogger" alt="" coords="872,201,1043,242"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1web_1_1logger_1_1_transaction_logger.html" title="cheshire3.web.logger.Transaction\lLogger" alt="" coords="846,266,1069,307"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_logger.html" title="cheshire3.baseObjects.Logger" alt="" coords="339,143,541,169"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,135,291,177"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="6,143,63,169"/>
+</map>

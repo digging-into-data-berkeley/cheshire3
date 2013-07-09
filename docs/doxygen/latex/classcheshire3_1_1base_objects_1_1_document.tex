@@ -1,0 +1,109 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_document}{\section{cheshire3.\-base\-Objects.\-Document Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_document}\index{cheshire3.\-base\-Objects.\-Document@{cheshire3.\-base\-Objects.\-Document}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Document\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classcheshire3_1_1base_objects_1_1_document__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Document\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_document__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_document_ab04d5fc31de43a52067436ec27ad29f0}{\-\_\-\-\_\-init\-\_\-\-\_\-}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_document_acdcb8bda07b95c6ae2086a14f6970e19}{get\-\_\-raw}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_document_ae04055f89a788cac01dc25683c7cd501}{int {\bfseries id} = -\/1}\label{classcheshire3_1_1base_objects_1_1_document_ae04055f89a788cac01dc25683c7cd501}
+
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_document_aceb2d61c021095d2b14faf88e8fb3ab8}{string {\bfseries document\-Store} = \char`\"{}\char`\"{}}\label{classcheshire3_1_1base_objects_1_1_document_aceb2d61c021095d2b14faf88e8fb3ab8}
+
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_document_a8c787137006e3c94fbe0784a45215524}{string {\bfseries text} = \char`\"{}\char`\"{}}\label{classcheshire3_1_1base_objects_1_1_document_a8c787137006e3c94fbe0784a45215524}
+
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_document_a2d0c4d526223641d35275082aa920298}{string {\bfseries mime\-Type} = \char`\"{}\char`\"{}}\label{classcheshire3_1_1base_objects_1_1_document_a2d0c4d526223641d35275082aa920298}
+
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_document_af006946479b2305a5027e015f8ffe3e8}{list {\bfseries process\-History} = \mbox{[}$\,$\mbox{]}}\label{classcheshire3_1_1base_objects_1_1_document_af006946479b2305a5027e015f8ffe3e8}
+
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_document_a9d6b0d20f87f26b54a3e4c9412f9995e}{tuple {\bfseries parent} = ('', '', -\/1)}\label{classcheshire3_1_1base_objects_1_1_document_a9d6b0d20f87f26b54a3e4c9412f9995e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A Document is a wrapper for raw data and its metadata.
+
+A Document is the raw data which will become a Record. It may be processed 
+into a Record by a Parser, or into another Document type by a PreParser. 
+Documents might be stored in a DocumentStore, if necessary, but can 
+generally be discarded. Documents may be anything from a JPG file, to an 
+unparsed XML file, to a string containing a URL. This allows for future 
+compatability with new formats, as they may be incorporated into the 
+system by implementing a Document type and a PreParser.
+\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_document_ab04d5fc31de43a52067436ec27ad29f0}{\index{cheshire3\-::base\-Objects\-::\-Document@{cheshire3\-::base\-Objects\-::\-Document}!\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}!cheshire3::baseObjects::Document@{cheshire3\-::base\-Objects\-::\-Document}}
+\subsubsection[{\-\_\-\-\_\-init\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Document.\-\_\-\-\_\-init\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{data, }
+\item[{}]{creator = {\ttfamily \char`\"{}\char`\"{}}, }
+\item[{}]{history = {\ttfamily \mbox{[}\mbox{]}}, }
+\item[{}]{mime\-Type = {\ttfamily \char`\"{}\char`\"{}}, }
+\item[{}]{parent = {\ttfamily None}, }
+\item[{}]{filename = {\ttfamily \char`\"{}\char`\"{}}, }
+\item[{}]{tag\-Name = {\ttfamily \char`\"{}\char`\"{}}, }
+\item[{}]{byte\-Count = {\ttfamily 0}, }
+\item[{}]{byte\-Offset = {\ttfamily 0}, }
+\item[{}]{word\-Count = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_document_ab04d5fc31de43a52067436ec27ad29f0}
+\begin{DoxyVerb}Construct a Document from data, with given metadata attributes.
+
+The constructer takes the data which should be used to construct the 
+document. This is implementation dependant. It also optionally may 
+take a creator object, process history information and a mimetype. 
+The parent option is for documents which have been extracted from 
+another document, for example pages from a book.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_document_acdcb8bda07b95c6ae2086a14f6970e19}{\index{cheshire3\-::base\-Objects\-::\-Document@{cheshire3\-::base\-Objects\-::\-Document}!get\-\_\-raw@{get\-\_\-raw}}
+\index{get\-\_\-raw@{get\-\_\-raw}!cheshire3::baseObjects::Document@{cheshire3\-::base\-Objects\-::\-Document}}
+\subsubsection[{get\-\_\-raw}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Document.\-get\-\_\-raw (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_document_acdcb8bda07b95c6ae2086a14f6970e19}
+\begin{DoxyVerb}Return the raw data associated with this document.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

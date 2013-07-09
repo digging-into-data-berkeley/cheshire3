@@ -1,0 +1,10 @@
+<map id="cheshire3.test.testTokenMerger.TokenMergerTestCase" name="cheshire3.test.testTokenMerger.TokenMergerTestCase">
+<area shape="rect" id="node4" href="$classcheshire3_1_1test_1_1test_token_merger_1_1_min_max_range_token_merger_test_case.html" title="cheshire3.test.testToken\lMerger.MinMaxRangeTokenMerger\lTestCase" alt="" coords="669,5,902,61"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1test_1_1test_token_merger_1_1_n_gram_token_merger_test_case.html" title="cheshire3.test.testToken\lMerger.NGramTokenMergerTestCase" alt="" coords="662,86,909,127"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1test_1_1test_token_merger_1_1_offset_proximity_token_merger_test_case.html" title="cheshire3.test.testToken\lMerger.OffsetProximityTokenMerger\lTestCase" alt="" coords="667,152,904,208"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1test_1_1test_token_merger_1_1_proximity_token_merger_test_case.html" title="cheshire3.test.testToken\lMerger.ProximityTokenMergerTestCase" alt="" coords="656,233,915,274"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1test_1_1test_token_merger_1_1_reconstruct_token_merger_test_case.html" title="cheshire3.test.testToken\lMerger.ReconstructTokenMerger\lTestCase" alt="" coords="676,299,895,355"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1test_1_1test_token_merger_1_1_sequence_range_token_merger_test_case.html" title="cheshire3.test.testToken\lMerger.SequenceRangeTokenMerger\lTestCase" alt="" coords="662,379,909,435"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1test_1_1test_token_merger_1_1_simple_token_merger_test_case.html" title="cheshire3.test.testToken\lMerger.SimpleTokenMergerTestCase" alt="" coords="663,459,908,501"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1test_1_1test_config_parser_1_1_cheshire3_object_test_case.html" title="cheshire3.test.testConfig\lParser.Cheshire3ObjectTestCase" alt="" coords="133,233,355,274"/>
+</map>

@@ -1,0 +1,96 @@
+\hypertarget{classcheshire3_1_1index_1_1_single_record_store_index}{\section{cheshire3.\-index.\-Single\-Record\-Store\-Index Class Reference}
+\label{classcheshire3_1_1index_1_1_single_record_store_index}\index{cheshire3.\-index.\-Single\-Record\-Store\-Index@{cheshire3.\-index.\-Single\-Record\-Store\-Index}}
+}
+
+
+Inheritance diagram for cheshire3.\-index.\-Single\-Record\-Store\-Index\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classcheshire3_1_1index_1_1_single_record_store_index__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-index.\-Single\-Record\-Store\-Index\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1index_1_1_single_record_store_index__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1index_1_1_single_record_store_index_af9f201315e0e4ccc9cc13a0f6ebb6709}{serialize\-\_\-term}
+\item 
+def \hyperlink{classcheshire3_1_1index_1_1_single_record_store_index_aa7d15a6c253b7b8f6e8f9d316dfcf316}{deserialize\-\_\-term}
+\item 
+\hypertarget{classcheshire3_1_1index_1_1_single_record_store_index_acb2d8b41f6741836a0be43603499ea73}{def {\bfseries calc\-\_\-section\-Offsets}}\label{classcheshire3_1_1index_1_1_single_record_store_index_acb2d8b41f6741836a0be43603499ea73}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Index implementation that assumes there is only 1 RecordStore.
+
+For single RecordStore cases this makes the index smaller and hence faster.
+Also enables compatibility with basic (non-proximity) Cheshire 2 index
+files.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1index_1_1_single_record_store_index_aa7d15a6c253b7b8f6e8f9d316dfcf316}{\index{cheshire3\-::index\-::\-Single\-Record\-Store\-Index@{cheshire3\-::index\-::\-Single\-Record\-Store\-Index}!deserialize\-\_\-term@{deserialize\-\_\-term}}
+\index{deserialize\-\_\-term@{deserialize\-\_\-term}!cheshire3::index::SingleRecordStoreIndex@{cheshire3\-::index\-::\-Single\-Record\-Store\-Index}}
+\subsubsection[{deserialize\-\_\-term}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-index.\-Single\-Record\-Store\-Index.\-deserialize\-\_\-term (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{data, }
+\item[{}]{n\-Recs = {\ttfamily -\/1}, }
+\item[{}]{prox = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1index_1_1_single_record_store_index_aa7d15a6c253b7b8f6e8f9d316dfcf316}
+\begin{DoxyVerb}Deserialize and return the internal representation of a term.
+
+Return the internal representation of a term as recreated from a
+string serialization from storage. Used as a callback from IndexStore
+to take serialized data and produce list of terms and document
+references.
+
+data  := string (usually retrieved from indexStore)
+nRecs := number of Records to deserialize (all by default)
+prox  := boolean flag to include proximity information
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1index_1_1_single_record_store_index_af9f201315e0e4ccc9cc13a0f6ebb6709}{\index{cheshire3\-::index\-::\-Single\-Record\-Store\-Index@{cheshire3\-::index\-::\-Single\-Record\-Store\-Index}!serialize\-\_\-term@{serialize\-\_\-term}}
+\index{serialize\-\_\-term@{serialize\-\_\-term}!cheshire3::index::SingleRecordStoreIndex@{cheshire3\-::index\-::\-Single\-Record\-Store\-Index}}
+\subsubsection[{serialize\-\_\-term}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-index.\-Single\-Record\-Store\-Index.\-serialize\-\_\-term (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{term\-Id, }
+\item[{}]{data, }
+\item[{}]{n\-Recs = {\ttfamily 0}, }
+\item[{}]{n\-Occs = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1index_1_1_single_record_store_index_af9f201315e0e4ccc9cc13a0f6ebb6709}
+\begin{DoxyVerb}Return a string serialization representing the term.
+
+Return a string serialization representing the term for storage
+purposes. Used as a callback from IndexStore to serialize a list of
+terms and document references to be stored.
+
+termId  := numeric ID of term being serialized
+data    := list of longs
+nRecs   := number of Records containing the term, if known
+nOccs   := total occurrences of the term, if known
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/index.\-py\end{DoxyCompactItemize}

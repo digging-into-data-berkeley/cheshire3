@@ -1,0 +1,10 @@
+<map id="cheshire3.resultSetStore.SimpleResultSetStore" name="cheshire3.resultSetStore.SimpleResultSetStore">
+<area shape="rect" id="node6" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_result_set_store.html" title="cheshire3.grid.irodsStore.\lIrodsResultSetStore" alt="" coords="1065,5,1239,46"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1result_set_store_1_1_bdb_result_set_store.html" title="cheshire3.resultSetStore.\lBdbResultSetStore" alt="" coords="1066,70,1238,111"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1sql_1_1result_set_store_1_1_postgres_result_set_store.html" title="cheshire3.sql.resultSetStore.\lPostgresResultSetStore" alt="" coords="1056,135,1248,177"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_result_set_store.html" title="cheshire3.baseObjects.Result\lSetStore" alt="" coords="587,70,786,111"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_objects_1_1_object_store.html" title="cheshire3.baseObjects.Object\lStore" alt="" coords="339,70,539,111"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,70,291,111"/>
+<area shape="rect" id="node5" href="$classobject.html" title="object" alt="" coords="6,77,63,104"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1result_set_store_1_1_bdb_result_set_store2.html" title="cheshire3.resultSetStore.\lBdbResultSetStore2" alt="" coords="1297,70,1469,111"/>
+</map>

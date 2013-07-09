@@ -1,0 +1,87 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_normalizer}{\section{cheshire3.\-base\-Objects.\-Normalizer Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_normalizer}\index{cheshire3.\-base\-Objects.\-Normalizer@{cheshire3.\-base\-Objects.\-Normalizer}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Normalizer\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_normalizer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Normalizer\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{classcheshire3_1_1base_objects_1_1_normalizer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_normalizer_a5ebeb17a40ed6d4258d6fd362441de50}{process\-\_\-string}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_normalizer_a04e2152bdb3b3a00f4ea023049545525}{process\-\_\-hash}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A Normalizer modifies terms to allow effective comparison.
+
+Normalizer objects are chained after Extractors in order to transform the 
+data from the Record or query.
+
+Example Normalizers might standardize the case, perform stemming or 
+transform a date into ISO8601 format.
+
+Normalizers are also needed to transform the terms in a request into the 
+same format as the term stored in the Index. For example a date index might 
+be searched using a free text date and that would need to be parsed into 
+the normalized form in order to compare it with the stored data.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_normalizer_a04e2152bdb3b3a00f4ea023049545525}{\index{cheshire3\-::base\-Objects\-::\-Normalizer@{cheshire3\-::base\-Objects\-::\-Normalizer}!process\-\_\-hash@{process\-\_\-hash}}
+\index{process\-\_\-hash@{process\-\_\-hash}!cheshire3::baseObjects::Normalizer@{cheshire3\-::base\-Objects\-::\-Normalizer}}
+\subsubsection[{process\-\_\-hash}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Normalizer.\-process\-\_\-hash (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{data}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_normalizer_a04e2152bdb3b3a00f4ea023049545525}
+\begin{DoxyVerb}Process a hash of values into alternative forms.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_normalizer_a5ebeb17a40ed6d4258d6fd362441de50}{\index{cheshire3\-::base\-Objects\-::\-Normalizer@{cheshire3\-::base\-Objects\-::\-Normalizer}!process\-\_\-string@{process\-\_\-string}}
+\index{process\-\_\-string@{process\-\_\-string}!cheshire3::baseObjects::Normalizer@{cheshire3\-::base\-Objects\-::\-Normalizer}}
+\subsubsection[{process\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Normalizer.\-process\-\_\-string (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{data}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_normalizer_a5ebeb17a40ed6d4258d6fd362441de50}
+\begin{DoxyVerb}Process a string into an alternative form.\end{DoxyVerb}
+ 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_normalizer_a5ebeb17a40ed6d4258d6fd362441de50_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

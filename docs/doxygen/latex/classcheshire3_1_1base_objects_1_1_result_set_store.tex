@@ -1,0 +1,92 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_result_set_store}{\section{cheshire3.\-base\-Objects.\-Result\-Set\-Store Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_result_set_store}\index{cheshire3.\-base\-Objects.\-Result\-Set\-Store@{cheshire3.\-base\-Objects.\-Result\-Set\-Store}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Result\-Set\-Store\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_result_set_store__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Result\-Set\-Store\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{classcheshire3_1_1base_objects_1_1_result_set_store__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_result_set_store_ac50f5f4c6c3227b604bc8c5679f27517}{create\-\_\-result\-Set}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_result_set_store_a5a181b9c87f6190c7f3142626bc0fb8b}{delete\-\_\-result\-Set}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_result_set_store_a518cec385486d3e967b79f1f5ca804fe}{fetch\-\_\-result\-Set}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_result_set_store_a49c93bc0a852e0e387a7ff86fbeab2fe}{store\-\_\-result\-Set}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A persistent storage mechanism for ResultSet objects.\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_result_set_store_ac50f5f4c6c3227b604bc8c5679f27517}{\index{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store@{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store}!create\-\_\-result\-Set@{create\-\_\-result\-Set}}
+\index{create\-\_\-result\-Set@{create\-\_\-result\-Set}!cheshire3::baseObjects::ResultSetStore@{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store}}
+\subsubsection[{create\-\_\-result\-Set}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Result\-Set\-Store.\-create\-\_\-result\-Set (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{rset = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_result_set_store_ac50f5f4c6c3227b604bc8c5679f27517}
+\begin{DoxyVerb}Create an identifier, store and return a ResultSet
+
+Generate a new identifier. If a ResultSet is given, assign the 
+identifier and store it using store_resultSet. If ResultSet is not 
+given create a placeholder ResultSet. Return the ResultSet.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_result_set_store_a5a181b9c87f6190c7f3142626bc0fb8b}{\index{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store@{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store}!delete\-\_\-result\-Set@{delete\-\_\-result\-Set}}
+\index{delete\-\_\-result\-Set@{delete\-\_\-result\-Set}!cheshire3::baseObjects::ResultSetStore@{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store}}
+\subsubsection[{delete\-\_\-result\-Set}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Result\-Set\-Store.\-delete\-\_\-result\-Set (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{id}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_result_set_store_a5a181b9c87f6190c7f3142626bc0fb8b}
+\begin{DoxyVerb}Delete a ResultSet with the given identifier from storage.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_result_set_store_a518cec385486d3e967b79f1f5ca804fe}{\index{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store@{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store}!fetch\-\_\-result\-Set@{fetch\-\_\-result\-Set}}
+\index{fetch\-\_\-result\-Set@{fetch\-\_\-result\-Set}!cheshire3::baseObjects::ResultSetStore@{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store}}
+\subsubsection[{fetch\-\_\-result\-Set}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Result\-Set\-Store.\-fetch\-\_\-result\-Set (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{id}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_result_set_store_a518cec385486d3e967b79f1f5ca804fe}
+\begin{DoxyVerb}Fetch and return Resultset with the given identifier.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_result_set_store_a49c93bc0a852e0e387a7ff86fbeab2fe}{\index{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store@{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store}!store\-\_\-result\-Set@{store\-\_\-result\-Set}}
+\index{store\-\_\-result\-Set@{store\-\_\-result\-Set}!cheshire3::baseObjects::ResultSetStore@{cheshire3\-::base\-Objects\-::\-Result\-Set\-Store}}
+\subsubsection[{store\-\_\-result\-Set}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Result\-Set\-Store.\-store\-\_\-result\-Set (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{rset}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_result_set_store_a49c93bc0a852e0e387a7ff86fbeab2fe}
+\begin{DoxyVerb}Store a ResultSet that already has an identifier assigned.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

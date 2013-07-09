@@ -1,0 +1,439 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_index_store}{\section{cheshire3.\-base\-Objects.\-Index\-Store Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_index_store}\index{cheshire3.\-base\-Objects.\-Index\-Store@{cheshire3.\-base\-Objects.\-Index\-Store}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Index\-Store\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_index_store__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Index\-Store\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{classcheshire3_1_1base_objects_1_1_index_store__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_ad496cd89871ae4e42547636958c663a9}{begin\-\_\-indexing}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a36d4bb49c86991021f56f32c29ea15ab}{commit\-\_\-indexing}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_ab9358571ada3cb5d1f3ddc5eedaccd3c}{commit\-\_\-central\-Indexing}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a27ba905279e32045ed438a89b046b4bd}{contains\-\_\-index}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a691e3da9ee84d63a5a9862a6a37fc8e1}{create\-\_\-index}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_af92829dd9caa3548560f65532a5d07ab}{clean\-\_\-index}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_ae417145ab0d92dec2db01a2825c58fc8}{delete\-\_\-index}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a9c0a1a3a2c37cc6ed948bb7c32f176ef}{delete\-\_\-terms}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a6e017e47befe2f6a9edf05b37b4447ce}{store\-\_\-terms}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a12af3612cf194976356a368f5edbe882}{create\-\_\-term}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a21c44be3d2b022bfe382f99572268f35}{fetch\-\_\-term}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a6660e59013f8a81a42f8dddaa66b2945}{fetch\-\_\-term\-By\-Id}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a2cbd3750f67123e72cd1047ede9ac317}{fetch\-\_\-term\-List}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a53bdf8b7844407eed797ecd11d2e5108}{fetch\-\_\-sort\-Value}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_ad2309bb2a85e1454b661c1178aa134e2}{fetch\-\_\-vector}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a7c2aaf64cdba6109a7badd401e41c6ae}{fetch\-\_\-prox\-Vector}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_abeb97ae0d965f47173d683b4d18c72df}{fetch\-\_\-summary}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a5c03542db4b2eb3173c7ca1cc7b81ced}{fetch\-\_\-term\-Frequencies}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_index_store_a644b6bfaea12956669b5b613789bea21}{construct\-\_\-result\-Set\-Item}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A persistent storage mechanism for terms organized by Indexes.
+
+Not an ObjectStore, just looks after Indexes and their terms.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_index_store_ad496cd89871ae4e42547636958c663a9}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!begin\-\_\-indexing@{begin\-\_\-indexing}}
+\index{begin\-\_\-indexing@{begin\-\_\-indexing}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{begin\-\_\-indexing}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-begin\-\_\-indexing (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_ad496cd89871ae4e42547636958c663a9}
+\begin{DoxyVerb}Prepare to index Records.
+
+Perform tasks as required before indexing begins, for example creating 
+batch files.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_index_store_af92829dd9caa3548560f65532a5d07ab}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!clean\-\_\-index@{clean\-\_\-index}}
+\index{clean\-\_\-index@{clean\-\_\-index}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{clean\-\_\-index}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-clean\-\_\-index (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_af92829dd9caa3548560f65532a5d07ab}
+\begin{DoxyVerb}Remove all the terms from an Index, but keep the specification.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_index_store_ab9358571ada3cb5d1f3ddc5eedaccd3c}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!commit\-\_\-central\-Indexing@{commit\-\_\-central\-Indexing}}
+\index{commit\-\_\-central\-Indexing@{commit\-\_\-central\-Indexing}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{commit\-\_\-central\-Indexing}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-commit\-\_\-central\-Indexing (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{file\-Path}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_ab9358571ada3cb5d1f3ddc5eedaccd3c}
+\begin{DoxyVerb}Finalize indexing for given index in single process context.
+
+Commit data from the indexing process to persistent storage. Called 
+automatically unless indexing is being carried out in distributed 
+context. In this case, must be called in only one of the processes.
+\end{DoxyVerb}
+ 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_index_store_ab9358571ada3cb5d1f3ddc5eedaccd3c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a36d4bb49c86991021f56f32c29ea15ab}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!commit\-\_\-indexing@{commit\-\_\-indexing}}
+\index{commit\-\_\-indexing@{commit\-\_\-indexing}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{commit\-\_\-indexing}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-commit\-\_\-indexing (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a36d4bb49c86991021f56f32c29ea15ab}
+\begin{DoxyVerb}Finalize indexing for the given Index.
+
+Perform tasks after all Records have been sent to given Index. For 
+example, commit any temporary data to disk.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a644b6bfaea12956669b5b613789bea21}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!construct\-\_\-result\-Set\-Item@{construct\-\_\-result\-Set\-Item}}
+\index{construct\-\_\-result\-Set\-Item@{construct\-\_\-result\-Set\-Item}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{construct\-\_\-result\-Set\-Item}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-construct\-\_\-result\-Set\-Item (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{rec\-Id, }
+\item[{}]{rec\-Store\-Id, }
+\item[{}]{n\-Occs, }
+\item[{}]{rsi\-Type = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a644b6bfaea12956669b5b613789bea21}
+\begin{DoxyVerb}Create and return a ResultSetItem.
+
+Take the internal representation of a term, as stored in this Index, 
+create and return a ResultSetItem from it.
+\end{DoxyVerb}
+ 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_index_store_a644b6bfaea12956669b5b613789bea21_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a27ba905279e32045ed438a89b046b4bd}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!contains\-\_\-index@{contains\-\_\-index}}
+\index{contains\-\_\-index@{contains\-\_\-index}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{contains\-\_\-index}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-contains\-\_\-index (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a27ba905279e32045ed438a89b046b4bd}
+\begin{DoxyVerb}Does the IndexStore currently store the given Index.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a691e3da9ee84d63a5a9862a6a37fc8e1}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!create\-\_\-index@{create\-\_\-index}}
+\index{create\-\_\-index@{create\-\_\-index}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{create\-\_\-index}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-create\-\_\-index (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a691e3da9ee84d63a5a9862a6a37fc8e1}
+\begin{DoxyVerb}Create an index in the store.\end{DoxyVerb}
+ 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_index_store_a691e3da9ee84d63a5a9862a6a37fc8e1_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a12af3612cf194976356a368f5edbe882}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!create\-\_\-term@{create\-\_\-term}}
+\index{create\-\_\-term@{create\-\_\-term}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{create\-\_\-term}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-create\-\_\-term (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{term\-Id, }
+\item[{}]{result\-Set}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a12af3612cf194976356a368f5edbe882}
+\begin{DoxyVerb}Take resultset and munge to Index format, serialise, store.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_index_store_ae417145ab0d92dec2db01a2825c58fc8}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!delete\-\_\-index@{delete\-\_\-index}}
+\index{delete\-\_\-index@{delete\-\_\-index}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{delete\-\_\-index}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-delete\-\_\-index (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_ae417145ab0d92dec2db01a2825c58fc8}
+\begin{DoxyVerb}Completely delete an index from the store.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a9c0a1a3a2c37cc6ed948bb7c32f176ef}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!delete\-\_\-terms@{delete\-\_\-terms}}
+\index{delete\-\_\-terms@{delete\-\_\-terms}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{delete\-\_\-terms}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-delete\-\_\-terms (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{terms, }
+\item[{}]{rec = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a9c0a1a3a2c37cc6ed948bb7c32f176ef}
+\begin{DoxyVerb}Delete the given terms from Index.
+
+Optionally only delete terms for a particular Record.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a7c2aaf64cdba6109a7badd401e41c6ae}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!fetch\-\_\-prox\-Vector@{fetch\-\_\-prox\-Vector}}
+\index{fetch\-\_\-prox\-Vector@{fetch\-\_\-prox\-Vector}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{fetch\-\_\-prox\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-fetch\-\_\-prox\-Vector (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{rec, }
+\item[{}]{elem\-Id = {\ttfamily -\/1}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a7c2aaf64cdba6109a7badd401e41c6ae}
+\begin{DoxyVerb}Fetch and return a proximity vector for the given Record.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a53bdf8b7844407eed797ecd11d2e5108}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!fetch\-\_\-sort\-Value@{fetch\-\_\-sort\-Value}}
+\index{fetch\-\_\-sort\-Value@{fetch\-\_\-sort\-Value}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{fetch\-\_\-sort\-Value}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-fetch\-\_\-sort\-Value (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{item}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a53bdf8b7844407eed797ecd11d2e5108}
+\begin{DoxyVerb}Fetch a stored value for the given Record to use for sorting.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_index_store_abeb97ae0d965f47173d683b4d18c72df}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!fetch\-\_\-summary@{fetch\-\_\-summary}}
+\index{fetch\-\_\-summary@{fetch\-\_\-summary}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{fetch\-\_\-summary}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-fetch\-\_\-summary (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_abeb97ae0d965f47173d683b4d18c72df}
+\begin{DoxyVerb}Fetch and return summary data for all terms in the Index.
+
+e.g. for sorting, then iterating.
+USE WITH CAUTION! Everything done here for speed.
+\end{DoxyVerb}
+ 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_index_store_abeb97ae0d965f47173d683b4d18c72df_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a21c44be3d2b022bfe382f99572268f35}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!fetch\-\_\-term@{fetch\-\_\-term}}
+\index{fetch\-\_\-term@{fetch\-\_\-term}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{fetch\-\_\-term}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-fetch\-\_\-term (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{term, }
+\item[{}]{summary = {\ttfamily 0}, }
+\item[{}]{prox = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a21c44be3d2b022bfe382f99572268f35}
+\begin{DoxyVerb}Fetch and return data for a single term.\end{DoxyVerb}
+ 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_index_store_a21c44be3d2b022bfe382f99572268f35_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a6660e59013f8a81a42f8dddaa66b2945}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!fetch\-\_\-term\-By\-Id@{fetch\-\_\-term\-By\-Id}}
+\index{fetch\-\_\-term\-By\-Id@{fetch\-\_\-term\-By\-Id}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{fetch\-\_\-term\-By\-Id}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-fetch\-\_\-term\-By\-Id (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{term\-Id}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a6660e59013f8a81a42f8dddaa66b2945}
+\begin{DoxyVerb}Fetch and return data for a single term based on term identifier.\end{DoxyVerb}
+ 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_index_store_a6660e59013f8a81a42f8dddaa66b2945_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a5c03542db4b2eb3173c7ca1cc7b81ced}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!fetch\-\_\-term\-Frequencies@{fetch\-\_\-term\-Frequencies}}
+\index{fetch\-\_\-term\-Frequencies@{fetch\-\_\-term\-Frequencies}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{fetch\-\_\-term\-Frequencies}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-fetch\-\_\-term\-Frequencies (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{m\-Type, }
+\item[{}]{start, }
+\item[{}]{n\-Terms, }
+\item[{}]{direction}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a5c03542db4b2eb3173c7ca1cc7b81ced}
+\begin{DoxyVerb}Fetch and return a list of term frequency tuples.\end{DoxyVerb}
+ 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_index_store_a5c03542db4b2eb3173c7ca1cc7b81ced_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_index_store_a5c03542db4b2eb3173c7ca1cc7b81ced_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a2cbd3750f67123e72cd1047ede9ac317}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!fetch\-\_\-term\-List@{fetch\-\_\-term\-List}}
+\index{fetch\-\_\-term\-List@{fetch\-\_\-term\-List}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{fetch\-\_\-term\-List}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-fetch\-\_\-term\-List (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{term, }
+\item[{}]{n\-Terms = {\ttfamily 0}, }
+\item[{}]{relation = {\ttfamily \char`\"{}\char`\"{}}, }
+\item[{}]{end = {\ttfamily \char`\"{}\char`\"{}}, }
+\item[{}]{summary = {\ttfamily 0}, }
+\item[{}]{reverse = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a2cbd3750f67123e72cd1047ede9ac317}
+\begin{DoxyVerb}Fetch and return a list of terms for an Index.
+
+numReq   := how many terms are wanted.
+relation := which order to scan through the index.
+end      := a point to end at (eg between A and B)
+summary  := only return frequency info, not the pointers to matching 
+    records.
+reverse  := use the reversed index if available (eg 'xedni' not 
+    'index').
+\end{DoxyVerb}
+ 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_index_store_a2cbd3750f67123e72cd1047ede9ac317_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_index_store_ad2309bb2a85e1454b661c1178aa134e2}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!fetch\-\_\-vector@{fetch\-\_\-vector}}
+\index{fetch\-\_\-vector@{fetch\-\_\-vector}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{fetch\-\_\-vector}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-fetch\-\_\-vector (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{rec, }
+\item[{}]{summary = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_ad2309bb2a85e1454b661c1178aa134e2}
+\begin{DoxyVerb}Fetch and return a vector for the given Record.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_index_store_a6e017e47befe2f6a9edf05b37b4447ce}{\index{cheshire3\-::base\-Objects\-::\-Index\-Store@{cheshire3\-::base\-Objects\-::\-Index\-Store}!store\-\_\-terms@{store\-\_\-terms}}
+\index{store\-\_\-terms@{store\-\_\-terms}!cheshire3::baseObjects::IndexStore@{cheshire3\-::base\-Objects\-::\-Index\-Store}}
+\subsubsection[{store\-\_\-terms}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Index\-Store.\-store\-\_\-terms (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{index, }
+\item[{}]{terms, }
+\item[{}]{rec}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_index_store_a6e017e47befe2f6a9edf05b37b4447ce}
+\begin{DoxyVerb}Store terms in the index for a given Record.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

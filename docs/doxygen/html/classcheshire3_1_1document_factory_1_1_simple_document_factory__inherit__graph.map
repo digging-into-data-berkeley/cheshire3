@@ -1,0 +1,10 @@
+<map id="cheshire3.documentFactory.SimpleDocumentFactory" name="cheshire3.documentFactory.SimpleDocumentFactory">
+<area shape="rect" id="node5" href="$classcheshire3_1_1document_factory_1_1_accumulating_document_factory.html" title="cheshire3.documentFactory.\lAccumulatingDocumentFactory" alt="" coords="853,37,1059,78"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1document_factory_1_1_component_document_factory.html" title="cheshire3.documentFactory.\lComponentDocumentFactory" alt="" coords="858,102,1054,143"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1sql_1_1document_factory_1_1_postgres_document_factory.html" title="cheshire3.sql.documentFactory.\lPostgresDocumentFactory" alt="" coords="851,167,1061,209"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_document_factory.html" title="cheshire3.baseObjects.Document\lFactory" alt="" coords="339,102,562,143"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,102,291,143"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="6,109,63,136"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1document_factory_1_1_cluster_extraction_document_factory.html" title="cheshire3.documentFactory.\lClusterExtractionDocumentFactory" alt="" coords="1113,5,1343,46"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1formats_1_1document_factory_1_1_report_lab_document_factory.html" title="cheshire3.formats.document\lFactory.ReportLabDocumentFactory" alt="" coords="1109,70,1347,111"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="cheshire3.sql.recordStore.PostgresRecordStore" name="cheshire3.sql.recordStore.PostgresRecordStore">
+<area shape="rect" id="node10" href="$classcheshire3_1_1sql_1_1object_store_1_1_postgres_object_store.html" title="cheshire3.sql.objectStore.\lPostgresObjectStore" alt="" coords="1339,38,1515,79"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1sql_1_1postgres_store_1_1_postgres_store.html" title="cheshire3.sql.postgresStore.\lPostgresStore" alt="" coords="870,5,1061,46"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_store_1_1_simple_store.html" title="cheshire3.baseStore.Simple\lStore" alt="" coords="371,5,560,46"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="125,70,304,111"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1base_objects_1_1_object_store.html" title="cheshire3.baseObjects.Object\lStore" alt="" coords="365,70,565,111"/>
+<area shape="rect" id="node5" href="$classobject.html" title="object" alt="" coords="6,45,63,72"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1base_store_1_1_summary_object.html" title="cheshire3.baseStore.Summary\lObject" alt="" coords="112,5,317,46"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1record_store_1_1_simple_record_store.html" title="cheshire3.recordStore.Simple\lRecordStore" alt="" coords="867,70,1064,111"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1base_objects_1_1_record_store.html" title="cheshire3.baseObjects.Record\lStore" alt="" coords="614,70,818,111"/>
+</map>

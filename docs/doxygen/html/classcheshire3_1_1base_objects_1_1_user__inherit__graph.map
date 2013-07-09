@@ -1,0 +1,6 @@
+<map id="cheshire3.baseObjects.User" name="cheshire3.baseObjects.User">
+<area shape="rect" id="node4" href="$classcheshire3_1_1user_1_1_simple_user.html" title="cheshire3.user.SimpleUser" alt="" coords="13,245,195,272"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="15,81,193,122"/>
+<area shape="rect" id="node3" href="$classobject.html" title="object" alt="" coords="75,5,132,32"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1grid_1_1user_1_1_irods_user.html" title="cheshire3.grid.user.IrodsUser" alt="" coords="5,320,203,347"/>
+</map>

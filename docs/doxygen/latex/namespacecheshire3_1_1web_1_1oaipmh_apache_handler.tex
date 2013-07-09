@@ -1,0 +1,34 @@
+\hypertarget{namespacecheshire3_1_1web_1_1oaipmh_apache_handler}{\section{cheshire3.\-web.\-oaipmh\-Apache\-Handler Namespace Reference}
+\label{namespacecheshire3_1_1web_1_1oaipmh_apache_handler}\index{cheshire3.\-web.\-oaipmh\-Apache\-Handler@{cheshire3.\-web.\-oaipmh\-Apache\-Handler}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classcheshire3_1_1web_1_1oaipmh_apache_handler_1_1req_handler}{req\-Handler}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespacecheshire3_1_1web_1_1oaipmh_apache_handler_a024d44e48ed86679a973af6df761f4fa}{def {\bfseries handler}}\label{namespacecheshire3_1_1web_1_1oaipmh_apache_handler_a024d44e48ed86679a973af6df761f4fa}
+
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespacecheshire3_1_1web_1_1oaipmh_apache_handler_ab542aa62d501642e2b3334a39fd81770}{tuple {\bfseries h} = \hyperlink{classcheshire3_1_1web_1_1oaipmh_apache_handler_1_1req_handler}{req\-Handler}()}\label{namespacecheshire3_1_1web_1_1oaipmh_apache_handler_ab542aa62d501642e2b3334a39fd81770}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}OAI-PMH server implementation to be run under mod_python.
+
+ Apache Config:
+<Directory /usr/local/apache2/htdocs/OAI/2.0>
+  SetHandler mod_python
+  PythonDebug On
+  PythonPath "['/home/cheshire/cheshire3/code', ...]+sys.path"
+  PythonHandler cheshire3.web.oaipmhApacheHandler
+</Directory>
+NB. SetHandler, not AddHandler.\end{DoxyVerb}
+ 

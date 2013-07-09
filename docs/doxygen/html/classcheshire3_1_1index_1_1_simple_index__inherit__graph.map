@@ -1,0 +1,13 @@
+<map id="cheshire3.index.SimpleIndex" name="cheshire3.index.SimpleIndex">
+<area shape="rect" id="node5" href="$classcheshire3_1_1index_1_1_bitmap_index.html" title="cheshire3.index.BitmapIndex" alt="" coords="825,5,1018,32"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1index_1_1_pass_through_index.html" title="cheshire3.index.PassThrough\lIndex" alt="" coords="822,57,1021,98"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1index_1_1_proximity_index.html" title="cheshire3.index.Proximity\lIndex" alt="" coords="835,122,1008,163"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1index_1_1_range_index.html" title="cheshire3.index.RangeIndex" alt="" coords="826,188,1017,215"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1index_1_1_single_record_store_index.html" title="cheshire3.index.SingleRecord\lStoreIndex" alt="" coords="822,239,1021,281"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1index_1_1_xml_index.html" title="cheshire3.index.XmlIndex" alt="" coords="834,305,1009,332"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1sql_1_1index_1_1_postgres_index.html" title="cheshire3.sql.index.Postgres\lIndex" alt="" coords="825,357,1017,398"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_index.html" title="cheshire3.baseObjects.Index" alt="" coords="339,188,533,215"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,181,291,222"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="6,188,63,215"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1index_1_1_xml_proximity_index.html" title="cheshire3.index.XmlProximity\lIndex" alt="" coords="1069,298,1267,339"/>
+</map>

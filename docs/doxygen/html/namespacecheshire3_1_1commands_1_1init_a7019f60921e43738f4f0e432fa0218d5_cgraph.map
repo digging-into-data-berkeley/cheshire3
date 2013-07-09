@@ -1,0 +1,8 @@
+<map id="cheshire3.commands.init.main" name="cheshire3.commands.init.main">
+<area shape="rect" id="node2" href="$namespacecheshire3_1_1commands_1_1init.html#a32bd4d664ffcbf95baeed62611ef3b4e" title="cheshire3.commands.init.create\l_defaultZeerex" alt="" coords="259,5,469,46"/>
+<area shape="rect" id="node3" href="$namespacecheshire3_1_1commands_1_1init.html#a5648df37e76ccbc3a8e497c56e96c4d9" title="cheshire3.commands.init.create\l_defaultConfig" alt="" coords="259,70,469,111"/>
+<area shape="rect" id="node4" href="$namespacecheshire3_1_1commands_1_1init.html#acada7aa48af66e7cc80149258784ceeb" title="cheshire3.commands.init.create\l_defaultConfigSelectors" alt="" coords="259,135,469,177"/>
+<area shape="rect" id="node5" href="$namespacecheshire3_1_1commands_1_1init.html#a4a2c893731c45cccb81aec3a51ff7a2b" title="cheshire3.commands.init.include\l_configByPath" alt="" coords="256,201,472,242"/>
+<area shape="rect" id="node6" href="$namespacecheshire3_1_1commands_1_1init.html#a2cd76f256169b525448ff6baa19e1d6a" title="cheshire3.commands.init.create\l_defaultConfigIndexes" alt="" coords="259,266,469,307"/>
+<area shape="rect" id="node7" href="$namespacecheshire3_1_1commands_1_1init.html#aa82843f3245d06d6fd2c3575e703c313" title="cheshire3.commands.init.create\l_defaultConfigWorkflows" alt="" coords="259,331,469,373"/>
+</map>

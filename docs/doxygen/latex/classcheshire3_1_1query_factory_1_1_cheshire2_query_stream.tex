@@ -1,0 +1,115 @@
+\hypertarget{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream}{\section{cheshire3.\-query\-Factory.\-Cheshire2\-Query\-Stream Class Reference}
+\label{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream}\index{cheshire3.\-query\-Factory.\-Cheshire2\-Query\-Stream@{cheshire3.\-query\-Factory.\-Cheshire2\-Query\-Stream}}
+}
+
+
+Inheritance diagram for cheshire3.\-query\-Factory.\-Cheshire2\-Query\-Stream\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-query\-Factory.\-Cheshire2\-Query\-Stream\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream_a1bed5c5c863356731400b42e4a4e0b47}{def {\bfseries parse}}\label{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream_a1bed5c5c863356731400b42e4a4e0b47}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+dictionary {\bfseries booleans}
+\item 
+\hypertarget{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream_a898f4ccd5f017cbc5f6cac19892d7b59}{dictionary {\bfseries relations}}\label{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream_a898f4ccd5f017cbc5f6cac19892d7b59}
+
+\item 
+dictionary {\bfseries geo\-Relations}
+\item 
+dictionary {\bfseries prox\-Booleans}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream_a5b151a8e768a15bfa1f8c33a66fe2cae}{\index{cheshire3\-::query\-Factory\-::\-Cheshire2\-Query\-Stream@{cheshire3\-::query\-Factory\-::\-Cheshire2\-Query\-Stream}!booleans@{booleans}}
+\index{booleans@{booleans}!cheshire3::queryFactory::Cheshire2QueryStream@{cheshire3\-::query\-Factory\-::\-Cheshire2\-Query\-Stream}}
+\subsubsection[{booleans}]{\setlength{\rightskip}{0pt plus 5cm}dictionary cheshire3.\-query\-Factory.\-Cheshire2\-Query\-Stream.\-booleans\hspace{0.3cm}{\ttfamily [static]}}}\label{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream_a5b151a8e768a15bfa1f8c33a66fe2cae}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = \{
+2                 \textcolor{stringliteral}{'AND'}: \textcolor{stringliteral}{'and'},
+3                 \textcolor{stringliteral}{'.AND.'}: \textcolor{stringliteral}{'and'},
+4                 \textcolor{stringliteral}{'&&'}: \textcolor{stringliteral}{'and'},
+5                 \textcolor{stringliteral}{'OR'}: \textcolor{stringliteral}{'or'},
+6                 \textcolor{stringliteral}{'.OR.'}: \textcolor{stringliteral}{'or'},
+7                 \textcolor{stringliteral}{'||'}: \textcolor{stringliteral}{'or'},
+8                 \textcolor{stringliteral}{'NOT'}: \textcolor{stringliteral}{'not'},
+9                 \textcolor{stringliteral}{'.NOT.'}: \textcolor{stringliteral}{'not'},
+10                 \textcolor{stringliteral}{'ANDNOT'}: \textcolor{stringliteral}{'not'},
+11                 \textcolor{stringliteral}{'.ANDNOT.'}: \textcolor{stringliteral}{'not'},
+12                 \textcolor{stringliteral}{'!!'}: \textcolor{stringliteral}{'not'}
+13                 \}
+\end{DoxyCode}
+\hypertarget{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream_a2140fed791e12fa4ddaca42c8d54af73}{\index{cheshire3\-::query\-Factory\-::\-Cheshire2\-Query\-Stream@{cheshire3\-::query\-Factory\-::\-Cheshire2\-Query\-Stream}!geo\-Relations@{geo\-Relations}}
+\index{geo\-Relations@{geo\-Relations}!cheshire3::queryFactory::Cheshire2QueryStream@{cheshire3\-::query\-Factory\-::\-Cheshire2\-Query\-Stream}}
+\subsubsection[{geo\-Relations}]{\setlength{\rightskip}{0pt plus 5cm}dictionary cheshire3.\-query\-Factory.\-Cheshire2\-Query\-Stream.\-geo\-Relations\hspace{0.3cm}{\ttfamily [static]}}}\label{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream_a2140fed791e12fa4ddaca42c8d54af73}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = \{\textcolor{stringliteral}{'>#<'}: \textcolor{stringliteral}{'within'},
+2                     \textcolor{stringliteral}{'.FULLY\_ENCLOSED\_WITHIN.'}: \textcolor{stringliteral}{'within'},
+3                     \textcolor{stringliteral}{'<#>'}: \textcolor{stringliteral}{'encloses'},
+4                     \textcolor{stringliteral}{'.ENCLOSES.'}: \textcolor{stringliteral}{'encloses'},
+5 \textcolor{comment}{#                    '>=<': 7,}
+6 \textcolor{comment}{#                    '.OVERLAPS.': 7,}
+7 \textcolor{comment}{#                    '<>#': 10,}
+8 \textcolor{comment}{#                    '.OUTSIDE\_OF.': 10,}
+9 \textcolor{comment}{#                    '+-+': 11}
+10 \textcolor{comment}{#                    '.NEAR.': 11,}
+11 \textcolor{comment}{#                    '.#.': 12,}
+12 \textcolor{comment}{#                    '.MEMBERS\_CONTAIN.': 12,}
+13 \textcolor{comment}{#                    '!.#.': 13,}
+14 \textcolor{comment}{#                    '.MEMBERS\_NOT\_CONTAIN.': 13,}
+15 \textcolor{comment}{#                    ':<:': 14,}
+16 \textcolor{comment}{#                    '.BEFORE.': 14,}
+17 \textcolor{comment}{#                    ':<=:': 15,}
+18 \textcolor{comment}{#                    '.BEFORE\_OR\_DURING.': 15,}
+19 \textcolor{comment}{#                    ':=:': 16,}
+20 \textcolor{comment}{#                    '.DURING.': 16,}
+21 \textcolor{comment}{#                    ':>=:': 17,}
+22 \textcolor{comment}{#                    '.DURING\_OR\_AFTER.': 17,}
+23 \textcolor{comment}{#                    ':>:': 18,}
+24 \textcolor{comment}{#                    '.AFTER.': 18}
+25                     \}
+\end{DoxyCode}
+\hypertarget{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream_a01cad70bf5c5fc7d28a6ccaf2de30dd1}{\index{cheshire3\-::query\-Factory\-::\-Cheshire2\-Query\-Stream@{cheshire3\-::query\-Factory\-::\-Cheshire2\-Query\-Stream}!prox\-Booleans@{prox\-Booleans}}
+\index{prox\-Booleans@{prox\-Booleans}!cheshire3::queryFactory::Cheshire2QueryStream@{cheshire3\-::query\-Factory\-::\-Cheshire2\-Query\-Stream}}
+\subsubsection[{prox\-Booleans}]{\setlength{\rightskip}{0pt plus 5cm}dictionary cheshire3.\-query\-Factory.\-Cheshire2\-Query\-Stream.\-prox\-Booleans\hspace{0.3cm}{\ttfamily [static]}}}\label{classcheshire3_1_1query_factory_1_1_cheshire2_query_stream_a01cad70bf5c5fc7d28a6ccaf2de30dd1}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = \{
+2                     \textcolor{stringliteral}{'!PROX'}: (2, 0, 2),  \textcolor{comment}{# prox}
+3                     \textcolor{stringliteral}{'!ADJ'}: (2, 0, 2),   \textcolor{comment}{# prox/unit=word/distance=1}
+4                     \textcolor{stringliteral}{'!NEAR'}: (20, 0, 2),  \textcolor{comment}{# err, what counts as near}
+5                     \textcolor{stringliteral}{'!FAR'}: (20, 0, 4),  \textcolor{comment}{# err, what counts as far}
+6                     \textcolor{stringliteral}{'!OPROX'}: (2, 1, 2),  \textcolor{comment}{# prox/ordered=1}
+7                     \textcolor{stringliteral}{'!OADJ'}: (2, 1, 2),  \textcolor{comment}{# prox/unit=word/distance=1/ordered=1}
+8                     \textcolor{stringliteral}{'!ONEAR'}: (20, 1, 2),  \textcolor{comment}{# err, what counts as near}
+9                     \textcolor{stringliteral}{'!OFAR'}: (20, 1, 4)  \textcolor{comment}{# err, what counts as far}
+10                     \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/query\-Factory.\-py\end{DoxyCompactItemize}

@@ -1,0 +1,86 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_server}{\section{cheshire3.\-base\-Objects.\-Server Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_server}\index{cheshire3.\-base\-Objects.\-Server@{cheshire3.\-base\-Objects.\-Server}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Server\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classcheshire3_1_1base_objects_1_1_server__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Server\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_server__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_server_ae5db1b85db8cfda64cdc3cd2855407ba}{\-\_\-\-\_\-init\-\_\-\-\_\-}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_server_a7734204562e6533ac74fb4aabf1fbf76}{dictionary {\bfseries databases} = \{\}}\label{classcheshire3_1_1base_objects_1_1_server_a7734204562e6533ac74fb4aabf1fbf76}
+
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_server_a5f4242735e4552fcbcaa384f7a735a7f}{{\bfseries auth\-Store} = None}\label{classcheshire3_1_1base_objects_1_1_server_a5f4242735e4552fcbcaa384f7a735a7f}
+
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_server_a230fba314a1a221f7b9bf4809ea90de7}{{\bfseries result\-Set\-Store} = None}\label{classcheshire3_1_1base_objects_1_1_server_a230fba314a1a221f7b9bf4809ea90de7}
+
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_server_a9dd702605170183b5b6e6cb33f075aa6}{{\bfseries query\-Store} = None}\label{classcheshire3_1_1base_objects_1_1_server_a9dd702605170183b5b6e6cb33f075aa6}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A Server object is a collection point for other objects.
+
+A Server is a collection point for other objects and an initial entry 
+into the system for requests from a ProtocolHandler. A server might know 
+about several Databases, RecordStores and so forth, but its main function 
+is to check whether the request should be accepted or not and create an
+environment in which the request can be processed.
+
+It will likely have access to a UserStore database which maintains 
+authentication and authorization information. The exact nature of this
+information is not defined, allowing many possible backend 
+implementations.
+
+Servers are the top level of configuration for the system and hence their 
+constructor requires the path to a local XML configuration file, however 
+from then on configuration information may be retrieved from other 
+locations such as a remote datastore to enable distributed environments 
+to maintain synchronicity.
+\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_server_ae5db1b85db8cfda64cdc3cd2855407ba}{\index{cheshire3\-::base\-Objects\-::\-Server@{cheshire3\-::base\-Objects\-::\-Server}!\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-init\-\_\-\-\_\-@{\-\_\-\-\_\-init\-\_\-\-\_\-}!cheshire3::baseObjects::Server@{cheshire3\-::base\-Objects\-::\-Server}}
+\subsubsection[{\-\_\-\-\_\-init\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Server.\-\_\-\-\_\-init\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{config\-File = {\ttfamily \char`\"{}serverConfig.xml\char`\"{}}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_server_ae5db1b85db8cfda64cdc3cd2855407ba}
+\begin{DoxyVerb}The constructer takes a Session object and a file path to
+the configuration file to be parsed and processed.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

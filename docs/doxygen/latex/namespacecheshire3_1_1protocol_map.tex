@@ -1,0 +1,113 @@
+\hypertarget{namespacecheshire3_1_1protocol_map}{\section{cheshire3.\-protocol\-Map Namespace Reference}
+\label{namespacecheshire3_1_1protocol_map}\index{cheshire3.\-protocol\-Map@{cheshire3.\-protocol\-Map}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classcheshire3_1_1protocol_map_1_1_zeerex_protocol_map}{Zeerex\-Protocol\-Map}
+\item 
+class \hyperlink{classcheshire3_1_1protocol_map_1_1_update_protocol_map}{Update\-Protocol\-Map}
+\item 
+class \hyperlink{classcheshire3_1_1protocol_map_1_1_c_q_l_protocol_map}{C\-Q\-L\-Protocol\-Map}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespacecheshire3_1_1protocol_map_ad95c47d945c97fd6183f2128605e6204}{{\bfseries srw\-Extensions} = None}\label{namespacecheshire3_1_1protocol_map_ad95c47d945c97fd6183f2128605e6204}
+
+\item 
+dictionary {\bfseries protocol\-Namespaces}
+\item 
+dictionary {\bfseries record\-Namespaces}
+\item 
+dictionary {\bfseries context\-Set\-Namespaces}
+\item 
+dictionary {\bfseries profile\-Namespaces}
+\item 
+dictionary {\bfseries extension\-Namespaces}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}ProtocolMap implemetations
+
+A ProtocolMap maps incoming requests into local objects in order to handle
+those requests.
+e.g. dc.title -> l5r-idx-cardname object
+\end{DoxyVerb}
+ 
+
+\subsection{Variable Documentation}
+\hypertarget{namespacecheshire3_1_1protocol_map_a2107187568043b3702cf6efbb15dbcc9}{\index{cheshire3\-::protocol\-Map@{cheshire3\-::protocol\-Map}!context\-Set\-Namespaces@{context\-Set\-Namespaces}}
+\index{context\-Set\-Namespaces@{context\-Set\-Namespaces}!cheshire3::protocolMap@{cheshire3\-::protocol\-Map}}
+\subsubsection[{context\-Set\-Namespaces}]{\setlength{\rightskip}{0pt plus 5cm}dictionary cheshire3.\-protocol\-Map.\-context\-Set\-Namespaces}}\label{namespacecheshire3_1_1protocol_map_a2107187568043b3702cf6efbb15dbcc9}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = \{
+2   \textcolor{stringliteral}{'cql'}: \textcolor{stringliteral}{'info:srw/cql-context-set/1/cql-v1.2'},
+3   \textcolor{stringliteral}{'srw'}: \textcolor{stringliteral}{'info:srw/cql-context-set/1/cql-v1.1'},
+4   \textcolor{stringliteral}{'dc'}: \textcolor{stringliteral}{'info:srw/cql-context-set/1/dc-v1.1'},
+5   \textcolor{stringliteral}{'bath'}: \textcolor{stringliteral}{'http://www.loc.gov/zing/cql/context-sets/bath/v1.1/'},
+6   \textcolor{stringliteral}{'zthes'}: \textcolor{stringliteral}{'http://zthes.z3950.org/cql/1.0/'},
+7   \textcolor{stringliteral}{'ccg'}: \textcolor{stringliteral}{'http://srw.cheshire3.org/contextSets/ccg/1.1/'},
+8   \textcolor{stringliteral}{'ccg\_l5r'}: \textcolor{stringliteral}{'http://srw.cheshire3.org/contextSets/ccg/l5r/1.0/'},
+9   \textcolor{stringliteral}{'rec'}: \textcolor{stringliteral}{'info:srw/cql-context-set/2/rec-1.0'},
+10   \textcolor{stringliteral}{'net'}: \textcolor{stringliteral}{'info:srw/cql-context-set/2/net-1.0'}
+11 \}
+\end{DoxyCode}
+\hypertarget{namespacecheshire3_1_1protocol_map_a8547471ef4b888734ea961e9e9955104}{\index{cheshire3\-::protocol\-Map@{cheshire3\-::protocol\-Map}!extension\-Namespaces@{extension\-Namespaces}}
+\index{extension\-Namespaces@{extension\-Namespaces}!cheshire3::protocolMap@{cheshire3\-::protocol\-Map}}
+\subsubsection[{extension\-Namespaces}]{\setlength{\rightskip}{0pt plus 5cm}dictionary cheshire3.\-protocol\-Map.\-extension\-Namespaces}}\label{namespacecheshire3_1_1protocol_map_a8547471ef4b888734ea961e9e9955104}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = \{
+2   \textcolor{stringliteral}{'schemaNegotiation'}: \textcolor{stringliteral}{'info:srw/extension/2/schemaNegotiation-1.0'},
+3   \textcolor{stringliteral}{'authenticationToken'}: \textcolor{stringliteral}{'info:srw/extension/2/auth-1.0'}
+4 \}
+\end{DoxyCode}
+\hypertarget{namespacecheshire3_1_1protocol_map_ac81c199d7b9c74b5d7ecf3dc0be2c5d3}{\index{cheshire3\-::protocol\-Map@{cheshire3\-::protocol\-Map}!profile\-Namespaces@{profile\-Namespaces}}
+\index{profile\-Namespaces@{profile\-Namespaces}!cheshire3::protocolMap@{cheshire3\-::protocol\-Map}}
+\subsubsection[{profile\-Namespaces}]{\setlength{\rightskip}{0pt plus 5cm}dictionary cheshire3.\-protocol\-Map.\-profile\-Namespaces}}\label{namespacecheshire3_1_1protocol_map_ac81c199d7b9c74b5d7ecf3dc0be2c5d3}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = \{
+2   \textcolor{stringliteral}{'bath'}: \textcolor{stringliteral}{'http://zing.z3950.org/srw/bath/2.0/'},
+3   \textcolor{stringliteral}{'zthes'}: \textcolor{stringliteral}{' http://zthes.z3950.org/srw/0.5'},
+4   \textcolor{stringliteral}{'ccg'}: \textcolor{stringliteral}{'http://srw.cheshire3.org/profiles/ccg/1.0/'},
+5   \textcolor{stringliteral}{'srw'}: \textcolor{stringliteral}{'info:srw/profiles/1/base-profile-v1.1'}
+6 \}
+\end{DoxyCode}
+\hypertarget{namespacecheshire3_1_1protocol_map_ae8833cdcbbb8bd691578e66e1078e539}{\index{cheshire3\-::protocol\-Map@{cheshire3\-::protocol\-Map}!protocol\-Namespaces@{protocol\-Namespaces}}
+\index{protocol\-Namespaces@{protocol\-Namespaces}!cheshire3::protocolMap@{cheshire3\-::protocol\-Map}}
+\subsubsection[{protocol\-Namespaces}]{\setlength{\rightskip}{0pt plus 5cm}dictionary cheshire3.\-protocol\-Map.\-protocol\-Namespaces}}\label{namespacecheshire3_1_1protocol_map_ae8833cdcbbb8bd691578e66e1078e539}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = \{
+2   \textcolor{stringliteral}{'srw'}: \textcolor{stringliteral}{'http://www.loc.gov/zing/srw/'},
+3   \textcolor{stringliteral}{'xcql'}: \textcolor{stringliteral}{'http://www.loc.gov/zing/srw/xcql/'},
+4   \textcolor{stringliteral}{'diag'}: \textcolor{stringliteral}{'http://www.loc.gov/zing/srw/diagnostic/'},
+5   \textcolor{stringliteral}{'ucp'}: \textcolor{stringliteral}{'http://www.loc.gov/zing/srw/update/'}
+6 \}
+\end{DoxyCode}
+\hypertarget{namespacecheshire3_1_1protocol_map_a46365edb8ea3535b6970d35aad6179fa}{\index{cheshire3\-::protocol\-Map@{cheshire3\-::protocol\-Map}!record\-Namespaces@{record\-Namespaces}}
+\index{record\-Namespaces@{record\-Namespaces}!cheshire3::protocolMap@{cheshire3\-::protocol\-Map}}
+\subsubsection[{record\-Namespaces}]{\setlength{\rightskip}{0pt plus 5cm}dictionary cheshire3.\-protocol\-Map.\-record\-Namespaces}}\label{namespacecheshire3_1_1protocol_map_a46365edb8ea3535b6970d35aad6179fa}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = \{
+2   \textcolor{stringliteral}{'dc'}: \textcolor{stringliteral}{'info:srw/schema/1/dc-v1.1'},
+3   \textcolor{stringliteral}{'diag'}: \textcolor{stringliteral}{'info:srw/schema/1/diagnostic-v1.1'},
+4   \textcolor{stringliteral}{'mods'}: \textcolor{stringliteral}{'info:srw/schema/1/mods-v3.0'},
+5   \textcolor{stringliteral}{'onix'}: \textcolor{stringliteral}{'info:srw/schema/1/onix-v2.0'},
+6   \textcolor{stringliteral}{'marcxml'}: \textcolor{stringliteral}{'info:srw/schema/1/marcxml-v1.1'},
+7   \textcolor{stringliteral}{'ead'}: \textcolor{stringliteral}{'info:srw/schema/1/ead-2002'},
+8   \textcolor{stringliteral}{'ccg'}: \textcolor{stringliteral}{'http://srw.o-r-g.org/schemas/ccg/1.0/'},
+9   \textcolor{stringliteral}{'marcsgml'}: \textcolor{stringliteral}{'http://srw.o-r-g.org/schemas/marcsgml/12.0/'},
+10   \textcolor{stringliteral}{'metar'}: \textcolor{stringliteral}{'http://srw.o-r-g.org/schemas/metar/1.0/'},
+11   \textcolor{stringliteral}{'unesco'}: \textcolor{stringliteral}{'http://srw.o-r-g.org/schemas/unesco/1.0/'},
+12   \textcolor{stringliteral}{'zthes'}: \textcolor{stringliteral}{'http://zthes.z3950.org/xml/zthes-05.dtd'},
+13   \textcolor{stringliteral}{'zeerex'}: \textcolor{stringliteral}{'http://explain.z3950.org/dtd/2.0/'},
+14   \textcolor{stringliteral}{'rec'}: \textcolor{stringliteral}{'info:srw/schema/2/rec-1.0'},
+15   \textcolor{stringliteral}{'xpath'}: \textcolor{stringliteral}{'info:srw/schema/1/xpath-1.0'}
+16 \}
+\end{DoxyCode}

@@ -1,0 +1,6 @@
+<map id="cheshire3.normalizer.SimpleNormalizer.process_hash" name="cheshire3.normalizer.SimpleNormalizer.process_hash">
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_extractor.html#a4fc29b716e1f858845da471532efcc29" title="cheshire3.baseObjects.Extractor.process\l_string" alt="" coords="251,5,517,46"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_objects_1_1_tokenizer.html#a6694a36e5e2164c7dd944aac85637125" title="cheshire3.baseObjects.Tokenizer.process\l_string" alt="" coords="249,70,519,111"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1base_objects_1_1_token_merger.html#a19f86160d5092fd1e6757732645daa33" title="cheshire3.baseObjects.Token\lMerger.process_string" alt="" coords="285,135,483,177"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1base_objects_1_1_normalizer.html#a5ebeb17a40ed6d4258d6fd362441de50" title="cheshire3.baseObjects.Normalizer.process\l_string" alt="" coords="246,201,522,242"/>
+</map>

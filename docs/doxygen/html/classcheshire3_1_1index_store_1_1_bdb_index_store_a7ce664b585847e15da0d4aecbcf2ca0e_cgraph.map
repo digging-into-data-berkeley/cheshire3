@@ -1,0 +1,16 @@
+<map id="cheshire3.indexStore.BdbIndexStore.begin_indexing" name="cheshire3.indexStore.BdbIndexStore.begin_indexing">
+<area shape="rect" id="node2" href="$classcheshire3_1_1test_1_1test_result_set_1_1_fake_database.html#a54e23e60be2b70ed14eb5d0c05a6cade" title="cheshire3.test.testResult\lSet.FakeDatabase.get_path" alt="" coords="271,5,459,46"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html#acdbaf3fd372ab5e9a155a26cd84288b1" title="cheshire3.indexStore.Bdb\lIndexStore._generateFilename" alt="" coords="263,70,468,111"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1base_objects_1_1_index_store.html#ab9358571ada3cb5d1f3ddc5eedaccd3c" title="cheshire3.baseObjects.Index\lStore.commit_centralIndexing" alt="" coords="266,135,465,177"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html#acd9591c2e1b4c172532624b3b15c6675" title="cheshire3.indexStore.Bdb\lIndexStore._openIndex" alt="" coords="278,201,453,242"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html#a896afb42ce6612281a70eeeab262e2b3" title="cheshire3.indexStore.Bdb\lIndexStore._openMetadata" alt="" coords="274,266,457,307"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html#a0671fbe5338d31bece599cd0140109a8" title="cheshire3.indexStore.Bdb\lIndexStore._openVectors" alt="" coords="278,331,453,373"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html#ac587cf89cc819be9892c49e1401bad89" title="cheshire3.indexStore.Bdb\lIndexStore._closeIndex" alt="" coords="278,397,453,438"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html#a59c24243375666826b7a726716b42508" title="cheshire3.indexStore.Bdb\lIndexStore._closeMetadata" alt="" coords="273,462,457,503"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html#a5deb27cf43ed9ba517fb2f89174a5fad" title="cheshire3.indexStore.Bdb\lIndexStore._buildVectors" alt="" coords="278,527,453,569"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html#a3fb27e18b43a051f19c2febbf69ba055" title="cheshire3.indexStore.Bdb\lIndexStore._openTermFreq" alt="" coords="273,593,458,634"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html#a2357a10f3b7ef3464879cde65856e334" title="cheshire3.indexStore.Bdb\lIndexStore._closeTermFreq" alt="" coords="272,658,459,699"/>
+<area shape="rect" id="node13" href="$classcheshire3_1_1base_objects_1_1_index.html#a7b1d34420920006bc0b91fb08722c288" title="cheshire3.baseObjects.Index.fetch_term" alt="" coords="235,724,495,751"/>
+<area shape="rect" id="node14" href="$classcheshire3_1_1base_objects_1_1_index_store.html#a21c44be3d2b022bfe382f99572268f35" title="cheshire3.baseObjects.Index\lStore.fetch_term" alt="" coords="269,775,462,817"/>
+<area shape="rect" id="node15" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html#a5b4d88f18509a3977ad48ad71568231f" title="cheshire3.indexStore.Bdb\lIndexStore._get_internalId" alt="" coords="276,841,455,882"/>
+</map>

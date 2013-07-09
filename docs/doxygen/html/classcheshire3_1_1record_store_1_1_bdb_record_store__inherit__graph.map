@@ -1,0 +1,14 @@
+<map id="cheshire3.recordStore.BdbRecordStore" name="cheshire3.recordStore.BdbRecordStore">
+<area shape="rect" id="node10" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_switching_record_store.html" title="cheshire3.grid.irodsStore.\lIrodsSwitchingRecordStore" alt="" coords="1360,5,1544,46"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1object_store_1_1_bdb_object_store.html" title="cheshire3.objectStore.Bdb\lObjectStore" alt="" coords="1363,70,1541,111"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1record_store_1_1_remote_slave_record_store.html" title="cheshire3.recordStore.Remote\lSlaveRecordStore" alt="" coords="1350,135,1554,177"/>
+<area shape="rect" id="node13" href="$classcheshire3_1_1record_store_1_1_remote_write_record_store.html" title="cheshire3.recordStore.Remote\lWriteRecordStore" alt="" coords="1350,201,1554,242"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_store_1_1_bdb_store.html" title="cheshire3.baseStore.BdbStore" alt="" coords="867,47,1071,73"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_store_1_1_simple_store.html" title="cheshire3.baseStore.Simple\lStore" alt="" coords="371,37,560,78"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="125,102,304,143"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1base_objects_1_1_object_store.html" title="cheshire3.baseObjects.Object\lStore" alt="" coords="365,102,565,143"/>
+<area shape="rect" id="node5" href="$classobject.html" title="object" alt="" coords="6,77,63,104"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1base_store_1_1_summary_object.html" title="cheshire3.baseStore.Summary\lObject" alt="" coords="112,37,317,78"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1record_store_1_1_simple_record_store.html" title="cheshire3.recordStore.Simple\lRecordStore" alt="" coords="871,99,1068,141"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1base_objects_1_1_record_store.html" title="cheshire3.baseObjects.Record\lStore" alt="" coords="614,99,818,141"/>
+</map>

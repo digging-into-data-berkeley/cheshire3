@@ -1,0 +1,93 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_object_store}{\section{cheshire3.\-base\-Objects.\-Object\-Store Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_object_store}\index{cheshire3.\-base\-Objects.\-Object\-Store@{cheshire3.\-base\-Objects.\-Object\-Store}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Object\-Store\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_object_store__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Object\-Store\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{classcheshire3_1_1base_objects_1_1_object_store__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_object_store_a7ef2ecb30253bc416275ce79a14e1a6e}{create\-\_\-object}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_object_store_a86360fddb8399503bf929d9eed3707f0}{delete\-\_\-object}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_object_store_a605828bfc0ccabdddac9b53d853b37e5}{fetch\-\_\-object}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_object_store_a02185c38d8b43872ddc0287efba81d79}{store\-\_\-object}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A persistent storage mechanism for configured Cheshire3 objects.\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_object_store_a7ef2ecb30253bc416275ce79a14e1a6e}{\index{cheshire3\-::base\-Objects\-::\-Object\-Store@{cheshire3\-::base\-Objects\-::\-Object\-Store}!create\-\_\-object@{create\-\_\-object}}
+\index{create\-\_\-object@{create\-\_\-object}!cheshire3::baseObjects::ObjectStore@{cheshire3\-::base\-Objects\-::\-Object\-Store}}
+\subsubsection[{create\-\_\-object}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Object\-Store.\-create\-\_\-object (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{obj = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_object_store_a7ef2ecb30253bc416275ce79a14e1a6e}
+\begin{DoxyVerb}Create a slot for and store a serialized Cheshire3 Object.
+
+Given a Cheshire3 object, create a serialized form of it in the 
+database.
+Note: You should use create_record() as per RecordStore to create an 
+object from a configuration.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_object_store_a86360fddb8399503bf929d9eed3707f0}{\index{cheshire3\-::base\-Objects\-::\-Object\-Store@{cheshire3\-::base\-Objects\-::\-Object\-Store}!delete\-\_\-object@{delete\-\_\-object}}
+\index{delete\-\_\-object@{delete\-\_\-object}!cheshire3::baseObjects::ObjectStore@{cheshire3\-::base\-Objects\-::\-Object\-Store}}
+\subsubsection[{delete\-\_\-object}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Object\-Store.\-delete\-\_\-object (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{id}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_object_store_a86360fddb8399503bf929d9eed3707f0}
+\begin{DoxyVerb}Delete an object.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_object_store_a605828bfc0ccabdddac9b53d853b37e5}{\index{cheshire3\-::base\-Objects\-::\-Object\-Store@{cheshire3\-::base\-Objects\-::\-Object\-Store}!fetch\-\_\-object@{fetch\-\_\-object}}
+\index{fetch\-\_\-object@{fetch\-\_\-object}!cheshire3::baseObjects::ObjectStore@{cheshire3\-::base\-Objects\-::\-Object\-Store}}
+\subsubsection[{fetch\-\_\-object}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Object\-Store.\-fetch\-\_\-object (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{id}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_object_store_a605828bfc0ccabdddac9b53d853b37e5}
+\begin{DoxyVerb}Fetch and return an object.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_object_store_a02185c38d8b43872ddc0287efba81d79}{\index{cheshire3\-::base\-Objects\-::\-Object\-Store@{cheshire3\-::base\-Objects\-::\-Object\-Store}!store\-\_\-object@{store\-\_\-object}}
+\index{store\-\_\-object@{store\-\_\-object}!cheshire3::baseObjects::ObjectStore@{cheshire3\-::base\-Objects\-::\-Object\-Store}}
+\subsubsection[{store\-\_\-object}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Object\-Store.\-store\-\_\-object (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{obj}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_object_store_a02185c38d8b43872ddc0287efba81d79}
+\begin{DoxyVerb}Store an object, potentially overwriting an existing copy.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

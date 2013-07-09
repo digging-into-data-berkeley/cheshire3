@@ -1,0 +1,79 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_workflow}{\section{cheshire3.\-base\-Objects.\-Workflow Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_workflow}\index{cheshire3.\-base\-Objects.\-Workflow@{cheshire3.\-base\-Objects.\-Workflow}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Workflow\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_workflow__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Workflow\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_workflow__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_workflow_a57abb5132e6df3e7b5e59929a1feb6ee}{process}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_workflow_a552240c8b71c916b8e6f9ba15e0de097}{string {\bfseries code} = \char`\"{}\char`\"{}}\label{classcheshire3_1_1base_objects_1_1_workflow_a552240c8b71c916b8e6f9ba15e0de097}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A Workflow defines a series of processing steps. 
+
+A Workflow is similar to the process chain concept of an index, but acts 
+at a more global level. It will allow the configuration of a Workflow 
+using Cheshire3 objects and simple code to be defined and executed for 
+input objects.
+
+For example, one might define a common Workflow pattern of PreParsers, 
+a Parser and then indexing routines in the XML configuration, and then 
+run each Document in a DocumentFactory through it. This allows users who 
+are not familiar with Python, but who are familiar with XML and available 
+Cheshire3 processing objects to implement tasks as required, by changing 
+only configuration files. It thus also allows a user to configure personal 
+workflows in a Cheshire3 system the code for which they don't have 
+permission to modify.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_workflow_a57abb5132e6df3e7b5e59929a1feb6ee}{\index{cheshire3\-::base\-Objects\-::\-Workflow@{cheshire3\-::base\-Objects\-::\-Workflow}!process@{process}}
+\index{process@{process}!cheshire3::baseObjects::Workflow@{cheshire3\-::base\-Objects\-::\-Workflow}}
+\subsubsection[{process}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Workflow.\-process (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{args, }
+\item[{}]{kw}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_workflow_a57abb5132e6df3e7b5e59929a1feb6ee}
+\begin{DoxyVerb}Executes the code as constructed from the XML configuration.
+
+Executes the generate code on the given input arguments. The return 
+value is the last object to be produced by the execution. 
+This function is automatically written and compiled when the object 
+is instantiated.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

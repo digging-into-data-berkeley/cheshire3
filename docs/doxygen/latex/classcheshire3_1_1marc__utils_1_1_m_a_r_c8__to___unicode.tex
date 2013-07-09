@@ -1,0 +1,66 @@
+\hypertarget{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode}{\section{cheshire3.\-marc\-\_\-utils.\-M\-A\-R\-C8\-\_\-to\-\_\-\-Unicode Class Reference}
+\label{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode}\index{cheshire3.\-marc\-\_\-utils.\-M\-A\-R\-C8\-\_\-to\-\_\-\-Unicode@{cheshire3.\-marc\-\_\-utils.\-M\-A\-R\-C8\-\_\-to\-\_\-\-Unicode}}
+}
+
+
+Collaboration diagram for cheshire3.\-marc\-\_\-utils.\-M\-A\-R\-C8\-\_\-to\-\_\-\-Unicode\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a7b2901a2945ba69664dc21ff480522a4}{def {\bfseries \-\_\-\-\_\-init\-\_\-\-\_\-}}\label{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a7b2901a2945ba69664dc21ff480522a4}
+
+\item 
+\hypertarget{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a9cc77f031be692a01468b78ec1a9cdfc}{def {\bfseries is\-\_\-multibyte}}\label{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a9cc77f031be692a01468b78ec1a9cdfc}
+
+\item 
+\hypertarget{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a51844ed8d72bb87ec75fd7879fc80e2f}{def {\bfseries translate}}\label{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a51844ed8d72bb87ec75fd7879fc80e2f}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a0641f915633e6ef0b6f073aac501f376}{{\bfseries g0}}\label{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a0641f915633e6ef0b6f073aac501f376}
+
+\item 
+\hypertarget{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a7f2d8df19b610997a22776be92695f98}{{\bfseries g1}}\label{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a7f2d8df19b610997a22776be92695f98}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a7ecea29c23994082449031ea69170790}{int {\bfseries basic\-\_\-latin} = 0x42}\label{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a7ecea29c23994082449031ea69170790}
+
+\item 
+\hypertarget{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a5924b58f463ca434c76f23fe01913feb}{int {\bfseries ansel} = 0x45}\label{classcheshire3_1_1marc__utils_1_1_m_a_r_c8__to___unicode_a5924b58f463ca434c76f23fe01913feb}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Converts MARC-8 to Unicode.  Note that currently, unicode strings
+aren't normalized, and some codecs (e.g. iso8859-1) will fail on
+such strings.  When I can require python 2.3, this will go away.
+
+Warning: MARC-8 EACC (East Asian characters) makes some
+distinctions which aren't captured in Unicode.  The LC tables give
+the option of mapping such characters either to a Unicode private
+use area, or a substitute character which (usually) gives the
+sense.  I've picked the second, so this means that the MARC data
+should be treated as primary and the Unicode data used for display
+purposes only.  (If you know of either of fonts designed for use
+with LC's private-use Unicode assignments, or of attempts to
+standardize Unicode characters to allow round-trips from EACC,
+or if you need the private-use Unicode character translations,
+please inform me, asl2@pobox.com.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/marc\-\_\-utils.\-py\end{DoxyCompactItemize}

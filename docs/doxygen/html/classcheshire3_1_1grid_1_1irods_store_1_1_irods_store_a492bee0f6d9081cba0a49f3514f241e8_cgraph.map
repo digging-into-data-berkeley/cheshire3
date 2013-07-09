@@ -1,0 +1,14 @@
+<map id="cheshire3.grid.irodsStore.IrodsStore.fetch_metadata" name="cheshire3.grid.irodsStore.IrodsStore.fetch_metadata">
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_store_1_1_switching_bdb_connection.html#aa0a4cd03886c55b80c56163976b4991c" title="cheshire3.baseStore.Switching\lBdbConnection._open" alt="" coords="252,5,457,46"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_store_1_1_bdb_store.html#affbdf52db81fd8d0c503798828a3ff36" title="cheshire3.baseStore.BdbStore._open" alt="" coords="233,71,477,97"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_store.html#acaa9a4d661cae3c37f5fbcf4ef07e605" title="cheshire3.grid.irodsStore.\lIrodsStore._open" alt="" coords="268,122,441,163"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1base_store_1_1_simple_store.html#a95379b8d1b2c7e67e0d1882ba119163b" title="cheshire3.baseStore.Simple\lStore.store_metadata" alt="" coords="260,187,449,229"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1base_store_1_1_simple_store.html#af23838af6912e170ee512817bc8114d0" title="cheshire3.baseStore.Simple\lStore.clean" alt="" coords="260,253,449,294"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_store.html#a352b7d6ffbcff3acb9e23cc45086e0aa" title="cheshire3.grid.irodsStore.\lIrodsStore._queryMetadata" alt="" coords="263,318,447,359"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1base_store_1_1_simple_store.html#a06fe9727dfa13d8c2607c49b76a81703" title="cheshire3.baseStore.Simple\lStore.delete_data" alt="" coords="260,383,449,425"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1base_store_1_1_simple_store.html#a4b9672e7ef772872c10e2cda22853d02" title="cheshire3.baseStore.Simple\lStore.clear" alt="" coords="260,449,449,490"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_store.html#a2c7df725f7da4d1788b0a8fce453c63a" title="cheshire3.grid.irodsStore.\lIrodsStore.get_metadataTypes" alt="" coords="252,514,457,555"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1base_store_1_1_simple_store.html#ae267f59dc7b8d3943175d70732be83c0" title="cheshire3.baseStore.Simple\lStore.flush" alt="" coords="260,579,449,621"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_switching_record_store.html#a1548ecb0838f2a645da0c4ac3abc6f40" title="cheshire3.grid.irodsStore.\lIrodsSwitchingRecordStore.\l_openIrods" alt="" coords="261,645,448,701"/>
+<area shape="rect" id="node13" href="$classcheshire3_1_1test_1_1test_result_set_1_1_fake_database.html#a54e23e60be2b70ed14eb5d0c05a6cade" title="cheshire3.test.testResult\lSet.FakeDatabase.get_path" alt="" coords="261,726,449,767"/>
+</map>

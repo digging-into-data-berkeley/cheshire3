@@ -1,0 +1,130 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_record_store}{\section{cheshire3.\-base\-Objects.\-Record\-Store Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_record_store}\index{cheshire3.\-base\-Objects.\-Record\-Store@{cheshire3.\-base\-Objects.\-Record\-Store}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Record\-Store\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_record_store__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Record\-Store\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{classcheshire3_1_1base_objects_1_1_record_store__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_record_store_ad2914668ba32de0fc85e91edbc51a9e3}{create\-\_\-record}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_record_store_abc7c8ff2c3d1173b2960d377d0262e30}{replace\-\_\-record}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_record_store_a3f64b971d17ddb806874262ef3eae215}{store\-\_\-record}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_record_store_a1f8bd3c7b219320146b8d7cbaf16b16f}{fetch\-\_\-record}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_record_store_a254d1e7b97e83296924df25b13a2b0ca}{delete\-\_\-record}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_record_store_ad4848d2d68d86b85af6374fa86f53fd1}{fetch\-\_\-record\-Metadata}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A persistent storage mechanism for Records.
+
+A RecordStore allows such operations as create, update, fetch and delete. 
+It also allows fast retrieval of important Record metadata, for use in
+computing relevance rankings for example.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_record_store_ad2914668ba32de0fc85e91edbc51a9e3}{\index{cheshire3\-::base\-Objects\-::\-Record\-Store@{cheshire3\-::base\-Objects\-::\-Record\-Store}!create\-\_\-record@{create\-\_\-record}}
+\index{create\-\_\-record@{create\-\_\-record}!cheshire3::baseObjects::RecordStore@{cheshire3\-::base\-Objects\-::\-Record\-Store}}
+\subsubsection[{create\-\_\-record}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Record\-Store.\-create\-\_\-record (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{rec = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_record_store_ad2914668ba32de0fc85e91edbc51a9e3}
+\begin{DoxyVerb}Create an identifier, store and return a Record.
+
+Generate a new identifier. If a Record is given, assign the identifier 
+to the Record and store it using store_record. If Record not given 
+create a placeholder Record. Return the Record.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_record_store_a254d1e7b97e83296924df25b13a2b0ca}{\index{cheshire3\-::base\-Objects\-::\-Record\-Store@{cheshire3\-::base\-Objects\-::\-Record\-Store}!delete\-\_\-record@{delete\-\_\-record}}
+\index{delete\-\_\-record@{delete\-\_\-record}!cheshire3::baseObjects::RecordStore@{cheshire3\-::base\-Objects\-::\-Record\-Store}}
+\subsubsection[{delete\-\_\-record}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Record\-Store.\-delete\-\_\-record (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{id}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_record_store_a254d1e7b97e83296924df25b13a2b0ca}
+\begin{DoxyVerb}Delete the Record with the given identifier from storage.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_record_store_a1f8bd3c7b219320146b8d7cbaf16b16f}{\index{cheshire3\-::base\-Objects\-::\-Record\-Store@{cheshire3\-::base\-Objects\-::\-Record\-Store}!fetch\-\_\-record@{fetch\-\_\-record}}
+\index{fetch\-\_\-record@{fetch\-\_\-record}!cheshire3::baseObjects::RecordStore@{cheshire3\-::base\-Objects\-::\-Record\-Store}}
+\subsubsection[{fetch\-\_\-record}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Record\-Store.\-fetch\-\_\-record (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{id, }
+\item[{}]{parser = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_record_store_a1f8bd3c7b219320146b8d7cbaf16b16f}
+\begin{DoxyVerb}Fetch and return the Record with the given identifier.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_record_store_ad4848d2d68d86b85af6374fa86f53fd1}{\index{cheshire3\-::base\-Objects\-::\-Record\-Store@{cheshire3\-::base\-Objects\-::\-Record\-Store}!fetch\-\_\-record\-Metadata@{fetch\-\_\-record\-Metadata}}
+\index{fetch\-\_\-record\-Metadata@{fetch\-\_\-record\-Metadata}!cheshire3::baseObjects::RecordStore@{cheshire3\-::base\-Objects\-::\-Record\-Store}}
+\subsubsection[{fetch\-\_\-record\-Metadata}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Record\-Store.\-fetch\-\_\-record\-Metadata (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{id, }
+\item[{}]{m\-Type}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_record_store_ad4848d2d68d86b85af6374fa86f53fd1}
+\begin{DoxyVerb}Return the size of the Record, according to its metadata.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_record_store_abc7c8ff2c3d1173b2960d377d0262e30}{\index{cheshire3\-::base\-Objects\-::\-Record\-Store@{cheshire3\-::base\-Objects\-::\-Record\-Store}!replace\-\_\-record@{replace\-\_\-record}}
+\index{replace\-\_\-record@{replace\-\_\-record}!cheshire3::baseObjects::RecordStore@{cheshire3\-::base\-Objects\-::\-Record\-Store}}
+\subsubsection[{replace\-\_\-record}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Record\-Store.\-replace\-\_\-record (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{rec}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_record_store_abc7c8ff2c3d1173b2960d377d0262e30}
+\begin{DoxyVerb}Check for permission, replace stored copy of an existing Record.
+
+Carry out permission checking before calling store_record.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_record_store_a3f64b971d17ddb806874262ef3eae215}{\index{cheshire3\-::base\-Objects\-::\-Record\-Store@{cheshire3\-::base\-Objects\-::\-Record\-Store}!store\-\_\-record@{store\-\_\-record}}
+\index{store\-\_\-record@{store\-\_\-record}!cheshire3::baseObjects::RecordStore@{cheshire3\-::base\-Objects\-::\-Record\-Store}}
+\subsubsection[{store\-\_\-record}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Record\-Store.\-store\-\_\-record (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{rec, }
+\item[{}]{transformer = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_record_store_a3f64b971d17ddb806874262ef3eae215}
+\begin{DoxyVerb}Store a Record that already has an identifier assigned.
+
+If a Transformer is given, use it to serialize the Record data.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

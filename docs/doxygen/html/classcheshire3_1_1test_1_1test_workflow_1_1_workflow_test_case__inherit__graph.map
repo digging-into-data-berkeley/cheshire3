@@ -1,0 +1,8 @@
+<map id="cheshire3.test.testWorkflow.WorkflowTestCase" name="cheshire3.test.testWorkflow.WorkflowTestCase">
+<area shape="rect" id="node4" href="$classcheshire3_1_1test_1_1test_workflow_1_1_caching_workflow_test_case.html" title="cheshire3.test.testWorkflow.\lCachingWorkflowTestCase" alt="" coords="640,5,829,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1test_1_1test_workflow_1_1_logging_workflow_test_case.html" title="cheshire3.test.testWorkflow.\lLoggingWorkflowTestCase" alt="" coords="640,70,829,111"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1test_1_1test_workflow_1_1_simple_workflow_test_case.html" title="cheshire3.test.testWorkflow.\lSimpleWorkflowTestCase" alt="" coords="640,135,829,177"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1test_1_1test_config_parser_1_1_cheshire3_object_test_case.html" title="cheshire3.test.testConfig\lParser.Cheshire3ObjectTestCase" alt="" coords="133,70,355,111"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1test_1_1test_workflow_1_1_logging_caching_workflow_test_case.html" title="cheshire3.test.testWorkflow.\lLoggingCachingWorkflowTestCase" alt="" coords="878,22,1109,63"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1test_1_1test_workflow_1_1_logging_simple_workflow_test_case.html" title="cheshire3.test.testWorkflow.\lLoggingSimpleWorkflowTestCase" alt="" coords="882,119,1105,161"/>
+</map>

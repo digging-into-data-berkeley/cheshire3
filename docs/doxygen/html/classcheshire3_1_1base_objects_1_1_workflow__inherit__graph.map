@@ -1,0 +1,8 @@
+<map id="cheshire3.baseObjects.Workflow" name="cheshire3.baseObjects.Workflow">
+<area shape="rect" id="node4" href="$classcheshire3_1_1workflow_1_1_simple_workflow.html" title="cheshire3.workflow.Simple\lWorkflow" alt="" coords="23,246,203,287"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="24,81,203,122"/>
+<area shape="rect" id="node3" href="$classobject.html" title="object" alt="" coords="85,5,141,32"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1lucene_1_1workflow_1_1_analyzer_workflow.html" title="cheshire3.lucene.workflow.\lAnalyzerWorkflow" alt="" coords="22,337,204,378"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1workflow_1_1_caching_workflow.html" title="cheshire3.workflow.Caching\lWorkflow" alt="" coords="229,337,416,378"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1parallel_1_1workflow_1_1_parallel_workflow.html" title="cheshire3.parallel.workflow.\lParallelWorkflow" alt="" coords="230,427,415,469"/>
+</map>

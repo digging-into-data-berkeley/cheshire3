@@ -1,0 +1,246 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_database}{\section{cheshire3.\-base\-Objects.\-Database Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_database}\index{cheshire3.\-base\-Objects.\-Database@{cheshire3.\-base\-Objects.\-Database}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Database\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_database__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Database\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_database__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_aae016d2565db192c7d2c62af7501268d}{add\-\_\-record}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_a56408296a0b71a2ed099120f2bc2b10e}{remove\-\_\-record}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_ad1b991cef210247da92f79d31152f74b}{index\-\_\-record}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_aa4aef9057cc3a4038628757be5b6beff}{unindex\-\_\-record}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_a218ca1e3168c33711546e426b078f195}{begin\-\_\-indexing}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_a326d77c1e7e2ff6524f814b70a1c2df0}{commit\-\_\-indexing}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_a5c7f19ce496b34407f18c50c9fb5e529}{reindex}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_a5dd5451a67c9a8f2e656c0204737a00d}{scan}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_a9589a90924f4ef4bf5273aa11e73eafe}{search}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_ab105b3ff4e840a7ee521b5702e9e1d05}{sort}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_ad1b7b803f58449bdb6bc319bd7292734}{commit\-\_\-metadata}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_database_acd96c9dea16c9839aeef076b1f90d76d}{accumulate\-\_\-metadata}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_database_a1f3ce822c49cb0174b73e56a8f1204ca}{dictionary {\bfseries indexes} = \{\}}\label{classcheshire3_1_1base_objects_1_1_database_a1f3ce822c49cb0174b73e56a8f1204ca}
+
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_database_a00a6e2f3266cc6819aa97abcc59fca89}{dictionary {\bfseries protocol\-Maps} = \{\}}\label{classcheshire3_1_1base_objects_1_1_database_a00a6e2f3266cc6819aa97abcc59fca89}
+
+\item 
+\hypertarget{classcheshire3_1_1base_objects_1_1_database_aea0fab0d5dc46ae977668f6d0a903c6f}{{\bfseries record\-Store} = None}\label{classcheshire3_1_1base_objects_1_1_database_aea0fab0d5dc46ae977668f6d0a903c6f}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A Database is a collection of Records and Indexes.
+
+It is responsible for maintaining and allowing access to its components, 
+as well as metadata associated with the collections. It must be able to 
+interpret a request, splitting it amongst its known resources and then 
+recombine the values into a single response.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_database_acd96c9dea16c9839aeef076b1f90d76d}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!accumulate\-\_\-metadata@{accumulate\-\_\-metadata}}
+\index{accumulate\-\_\-metadata@{accumulate\-\_\-metadata}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{accumulate\-\_\-metadata}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-accumulate\-\_\-metadata (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{obj}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_acd96c9dea16c9839aeef076b1f90d76d}
+\begin{DoxyVerb}Accumulate metadata (e.g. size) from and object.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_database_aae016d2565db192c7d2c62af7501268d}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!add\-\_\-record@{add\-\_\-record}}
+\index{add\-\_\-record@{add\-\_\-record}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{add\-\_\-record}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-add\-\_\-record (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{rec}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_aae016d2565db192c7d2c62af7501268d}
+\begin{DoxyVerb}Ensure that a Record is registered with the database.
+
+This method does not ensure persistence of the Record, nor index it,
+just perform registration, and accumulate its metadata.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_database_a218ca1e3168c33711546e426b078f195}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!begin\-\_\-indexing@{begin\-\_\-indexing}}
+\index{begin\-\_\-indexing@{begin\-\_\-indexing}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{begin\-\_\-indexing}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-begin\-\_\-indexing (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_a218ca1e3168c33711546e426b078f195}
+\begin{DoxyVerb}Prepare to index Records.
+
+Perform tasks before Records are to be indexed.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_database_a326d77c1e7e2ff6524f814b70a1c2df0}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!commit\-\_\-indexing@{commit\-\_\-indexing}}
+\index{commit\-\_\-indexing@{commit\-\_\-indexing}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{commit\-\_\-indexing}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-commit\-\_\-indexing (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_a326d77c1e7e2ff6524f814b70a1c2df0}
+\begin{DoxyVerb}Finalize indexing, commit data to persistent storage.
+
+Perform tasks after Records have been sent to all Indexes. For 
+example, commit any temporary data to IndexStores\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_database_ad1b7b803f58449bdb6bc319bd7292734}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!commit\-\_\-metadata@{commit\-\_\-metadata}}
+\index{commit\-\_\-metadata@{commit\-\_\-metadata}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{commit\-\_\-metadata}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-commit\-\_\-metadata (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_ad1b7b803f58449bdb6bc319bd7292734}
+\begin{DoxyVerb}Ensure persistence of database metadata.\end{DoxyVerb}
+ 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_database_ad1b7b803f58449bdb6bc319bd7292734_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_database_ad1b991cef210247da92f79d31152f74b}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!index\-\_\-record@{index\-\_\-record}}
+\index{index\-\_\-record@{index\-\_\-record}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{index\-\_\-record}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-index\-\_\-record (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{rec}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_ad1b991cef210247da92f79d31152f74b}
+\begin{DoxyVerb}Index a Record, return the Record.
+
+Send the Record to all Indexes registered with the Database to be 
+indexed and then return the Record (for the sake of Workflows).
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_database_a5c7f19ce496b34407f18c50c9fb5e529}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!reindex@{reindex}}
+\index{reindex@{reindex}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{reindex}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-reindex (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_a5c7f19ce496b34407f18c50c9fb5e529}
+\begin{DoxyVerb}Reindex all Records registered with the database.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_database_a56408296a0b71a2ed099120f2bc2b10e}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!remove\-\_\-record@{remove\-\_\-record}}
+\index{remove\-\_\-record@{remove\-\_\-record}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{remove\-\_\-record}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-remove\-\_\-record (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{rec}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_a56408296a0b71a2ed099120f2bc2b10e}
+\begin{DoxyVerb}Unregister the Record.
+
+This method does not delete the Record, nor unindex it, just 
+de-registers the Record and subtracts its metadata from the whole.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_database_a5dd5451a67c9a8f2e656c0204737a00d}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!scan@{scan}}
+\index{scan@{scan}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{scan}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-scan (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{clause, }
+\item[{}]{n\-Terms, }
+\item[{}]{direction = {\ttfamily \char`\"{}$>$=\char`\"{}}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_a5dd5451a67c9a8f2e656c0204737a00d}
+\begin{DoxyVerb}Scan (browse) through an Index to return a list of terms.
+
+Given a single clause CQL query, resolve to the appropriate Index and 
+return an ordered term list with document frequencies and total 
+occurrences with a maximum of nTerms items. Direction specifies 
+whether to move backwards or forwards from the term given in clause. 
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_database_a9589a90924f4ef4bf5273aa11e73eafe}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!search@{search}}
+\index{search@{search}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{search}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-search (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{query}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_a9589a90924f4ef4bf5273aa11e73eafe}
+\begin{DoxyVerb}Search the database, return a ResultSet.
+
+Given a CQL query, execute the query and return a ResultSet object.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_database_ab105b3ff4e840a7ee521b5702e9e1d05}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!sort@{sort}}
+\index{sort@{sort}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{sort}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-sort (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{result\-Sets, }
+\item[{}]{sort\-Keys}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_ab105b3ff4e840a7ee521b5702e9e1d05}
+\begin{DoxyVerb}Merge, sort and return one or more ResultSets.
+
+Take one or more resultSets, merge them and sort based on sortKeys.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_database_aa4aef9057cc3a4038628757be5b6beff}{\index{cheshire3\-::base\-Objects\-::\-Database@{cheshire3\-::base\-Objects\-::\-Database}!unindex\-\_\-record@{unindex\-\_\-record}}
+\index{unindex\-\_\-record@{unindex\-\_\-record}!cheshire3::baseObjects::Database@{cheshire3\-::base\-Objects\-::\-Database}}
+\subsubsection[{unindex\-\_\-record}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Database.\-unindex\-\_\-record (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{rec}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_database_aa4aef9057cc3a4038628757be5b6beff}
+\begin{DoxyVerb}Unindex a Record, return the Record.
+
+Sends the Record to all Indexes registered with the Database to be 
+removed/unindexed.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

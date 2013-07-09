@@ -1,0 +1,14 @@
+<map id="cheshire3.tokenMerger.SimpleTokenMerger" name="cheshire3.tokenMerger.SimpleTokenMerger">
+<area shape="rect" id="node5" href="$classcheshire3_1_1textmining_1_1token_merger_1_1_pos_phrase_token_merger.html" title="cheshire3.textmining.token\lMerger.PosPhraseTokenMerger" alt="" coords="849,5,1061,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1token_merger_1_1_n_gram_token_merger.html" title="cheshire3.tokenMerger.NGram\lTokenMerger" alt="" coords="852,70,1057,111"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1token_merger_1_1_proximity_token_merger.html" title="cheshire3.tokenMerger.Proximity\lTokenMerger" alt="" coords="846,135,1063,177"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1token_merger_1_1_range_token_merger.html" title="cheshire3.tokenMerger.Range\lTokenMerger" alt="" coords="854,201,1055,242"/>
+<area shape="rect" id="node13" href="$classcheshire3_1_1token_merger_1_1_reconstruct_token_merger.html" title="cheshire3.tokenMerger.Reconstruct\lTokenMerger" alt="" coords="838,266,1071,307"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_token_merger.html" title="cheshire3.baseObjects.Token\lMerger" alt="" coords="339,135,538,177"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,135,291,177"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="6,143,63,169"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1token_merger_1_1_offset_proximity_token_merger.html" title="cheshire3.tokenMerger.Offset\lProximityTokenMerger" alt="" coords="1133,70,1331,111"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1token_merger_1_1_phrase_token_merger.html" title="cheshire3.tokenMerger.Phrase\lTokenMerger" alt="" coords="1130,135,1334,177"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1token_merger_1_1_min_max_range_token_merger.html" title="cheshire3.tokenMerger.Min\lMaxRangeTokenMerger" alt="" coords="1140,201,1324,242"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1token_merger_1_1_sequence_range_token_merger.html" title="cheshire3.tokenMerger.Sequence\lRangeTokenMerger" alt="" coords="1121,266,1343,307"/>
+</map>

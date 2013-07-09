@@ -1,0 +1,8 @@
+<map id="cheshire3.baseStore.SimpleStore.generate_id" name="cheshire3.baseStore.SimpleStore.generate_id">
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_store_1_1_directory_store.html#af87471f0740e2de66f6256352f72e556" title="cheshire3.baseStore.Directory\lStore.store_data" alt="" coords="243,70,445,111"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_store.html#ad41c2521d849cbc62cf5a0ad6c1e05c2" title="cheshire3.grid.irodsStore.\lIrodsStore.fetch_data" alt="" coords="257,5,431,46"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_store.html#a7922b27275d24ccced9f535ac0a0e119" title="cheshire3.grid.irodsStore.\lIrodsStore.replicate_data" alt="" coords="257,135,431,177"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1query_store_1_1_simple_query_store.html#acd293eeeac0cdb865b474c796d8805eb" title="cheshire3.queryStore.Simple\lQueryStore.create_query" alt="" coords="494,165,687,206"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1query_store_1_1_simple_query_store.html#a2771be6d33ff4aafb3ac06b69c369475" title="cheshire3.queryStore.Simple\lQueryStore.store_query" alt="" coords="494,70,687,111"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1query_store_1_1_simple_query_store.html#a2f5710fdb287c8fd354a99d38481dd85" title="cheshire3.queryStore.Simple\lQueryStore.fetch_query" alt="" coords="494,5,687,46"/>
+</map>

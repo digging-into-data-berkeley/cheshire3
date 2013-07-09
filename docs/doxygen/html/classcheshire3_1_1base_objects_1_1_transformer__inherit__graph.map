@@ -1,0 +1,26 @@
+<map id="cheshire3.baseObjects.Transformer" name="cheshire3.baseObjects.Transformer">
+<area shape="rect" id="node4" href="$classcheshire3_1_1corpus_1_1transformer_1_1_corpus_prep_transformer.html" title="cheshire3.corpus.transformer.\lCorpusPrepTransformer" alt="" coords="638,6,837,47"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1datamining_1_1transformer_1_1_arm_vector_transformer.html" title="cheshire3.datamining.transformer.\lArmVectorTransformer" alt="" coords="625,71,849,113"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1datamining_1_1transformer_1_1_vector_transformer.html" title="cheshire3.datamining.transformer.\lVectorTransformer" alt="" coords="625,137,849,178"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1textmining_1_1transformer_1_1_genia_transformer.html" title="cheshire3.textmining.transformer.\lGeniaTransformer" alt="" coords="627,202,847,243"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1textmining_1_1transformer_1_1_pos_transformer.html" title="cheshire3.textmining.transformer.\lPosTransformer" alt="" coords="627,267,847,309"/>
+<area shape="rect" id="node14" href="$classcheshire3_1_1transformer_1_1_bzip2_xml_transformer.html" title="cheshire3.transformer.Bzip2\lXmlTransformer" alt="" coords="643,333,832,374"/>
+<area shape="rect" id="node15" href="$classcheshire3_1_1transformer_1_1_component_parent_fetching_transformer.html" title="cheshire3.transformer.Component\lParentFetchingTransformer" alt="" coords="625,398,849,439"/>
+<area shape="rect" id="node16" href="$classcheshire3_1_1transformer_1_1_filepath_transformer.html" title="cheshire3.transformer.Filepath\lTransformer" alt="" coords="636,463,839,505"/>
+<area shape="rect" id="node17" href="$classcheshire3_1_1transformer_1_1_lxml_query_term_highlighting_transformer.html" title="cheshire3.transformer.Lxml\lQueryTermHighlightingTransformer" alt="" coords="621,529,853,570"/>
+<area shape="rect" id="node18" href="$classcheshire3_1_1transformer_1_1_lxml_xslt_transformer.html" title="cheshire3.transformer.Lxml\lXsltTransformer" alt="" coords="645,594,829,635"/>
+<area shape="rect" id="node19" href="$classcheshire3_1_1transformer_1_1_marc_transformer.html" title="cheshire3.transformer.Marc\lTransformer" alt="" coords="645,659,830,701"/>
+<area shape="rect" id="node20" href="$classcheshire3_1_1transformer_1_1_sax_transformer.html" title="cheshire3.transformer.Sax\lTransformer" alt="" coords="648,725,827,766"/>
+<area shape="rect" id="node21" href="$classcheshire3_1_1transformer_1_1_templated_transformer.html" title="cheshire3.transformer.Templated\lTransformer" alt="" coords="628,790,847,831"/>
+<area shape="rect" id="node22" href="$classcheshire3_1_1transformer_1_1_workflow_transformer.html" title="cheshire3.transformer.Workflow\lTransformer" alt="" coords="632,855,843,897"/>
+<area shape="rect" id="node23" href="$classcheshire3_1_1transformer_1_1_xml_transformer.html" title="cheshire3.transformer.Xml\lTransformer" alt="" coords="648,921,827,962"/>
+<area shape="rect" id="node24" href="$classcheshire3_1_1web_1_1transformer_1_1_g_r_s1_transformer.html" title="cheshire3.web.transformer.\lGRS1Transformer" alt="" coords="645,986,829,1027"/>
+<area shape="rect" id="node25" href="$classcheshire3_1_1web_1_1transformer_1_1_grs_map_transformer.html" title="cheshire3.web.transformer.\lGrsMapTransformer" alt="" coords="645,1051,829,1093"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,529,291,570"/>
+<area shape="rect" id="node3" href="$classobject.html" title="object" alt="" coords="6,536,63,563"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1datamining_1_1transformer_1_1_split_arm_vector_transformer.html" title="cheshire3.datamining.transformer.\lSplitArmVectorTransformer" alt="" coords="901,6,1125,47"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1datamining_1_1transformer_1_1_window_arm_vector_transformer.html" title="cheshire3.datamining.transformer.\lWindowArmVectorTransformer" alt="" coords="901,71,1125,113"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1datamining_1_1transformer_1_1_s_v_m_file_transformer.html" title="cheshire3.datamining.transformer.\lSVMFileTransformer" alt="" coords="901,137,1125,178"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1textmining_1_1transformer_1_1_tsujii_text_pos_transformer.html" title="cheshire3.textmining.transformer.\lTsujiiTextPosTransformer" alt="" coords="903,235,1123,277"/>
+<area shape="rect" id="node13" href="$classcheshire3_1_1textmining_1_1transformer_1_1_tsujii_x_path_transformer.html" title="cheshire3.textmining.transformer.\lTsujiiXPathTransformer" alt="" coords="903,301,1123,342"/>
+</map>

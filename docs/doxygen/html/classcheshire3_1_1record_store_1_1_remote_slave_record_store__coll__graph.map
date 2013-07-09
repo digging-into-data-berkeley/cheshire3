@@ -1,0 +1,11 @@
+<map id="cheshire3.recordStore.RemoteSlaveRecordStore" name="cheshire3.recordStore.RemoteSlaveRecordStore">
+<area shape="rect" id="node2" href="$classcheshire3_1_1record_store_1_1_bdb_record_store.html" title="cheshire3.recordStore.Bdb\lRecordStore" alt="" coords="1401,504,1581,545"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_store_1_1_bdb_store.html" title="cheshire3.baseStore.BdbStore" alt="" coords="897,511,1101,538"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1base_store_1_1_simple_store.html" title="cheshire3.baseStore.Simple\lStore" alt="" coords="651,306,840,348"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="267,414,445,456"/>
+<area shape="rect" id="node14" href="$classcheshire3_1_1base_objects_1_1_object_store.html" title="cheshire3.baseObjects.Object\lStore" alt="" coords="645,485,845,526"/>
+<area shape="rect" id="node6" href="$classobject.html" title="object" alt="" coords="17,350,74,376"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1base_store_1_1_summary_object.html" title="cheshire3.baseStore.Summary\lObject" alt="" coords="253,306,459,348"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1record_store_1_1_simple_record_store.html" title="cheshire3.recordStore.Simple\lRecordStore" alt="" coords="1152,570,1349,612"/>
+<area shape="rect" id="node13" href="$classcheshire3_1_1base_objects_1_1_record_store.html" title="cheshire3.baseObjects.Record\lStore" alt="" coords="897,596,1101,637"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="cheshire3.workflow.CachingWorkflow" name="cheshire3.workflow.CachingWorkflow">
+<area shape="rect" id="node2" href="$classcheshire3_1_1workflow_1_1_simple_workflow.html" title="cheshire3.workflow.Simple\lWorkflow" alt="" coords="202,398,381,439"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_objects_1_1_workflow.html" title="cheshire3.baseObjects.Workflow" alt="" coords="52,305,268,332"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="71,198,249,239"/>
+<area shape="rect" id="node5" href="$classobject.html" title="object" alt="" coords="118,5,175,32"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="cheshire3.parallel.mpTaskManager.ProcessTaskManager.recv" name="cheshire3.parallel.mpTaskManager.ProcessTaskManager.recv">
+<area shape="rect" id="node2" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#aefe73e58ab79274d14fb09f1c410cd16" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.recv_any" alt="" coords="291,177,557,218"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#a7f32fba76eef6daff8c1bb46f7a8b3ac" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.recv_all" alt="" coords="611,107,869,149"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#add615b936f645e5f6e17516b177d101b" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.send_any" alt="" coords="605,177,875,218"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#a02d901c84cc61b79500a1dcf254b491d" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.claim" alt="" coords="619,242,861,283"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#a536127426588621d1202946cbcb2d21c" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.shutdown" alt="" coords="923,5,1192,46"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#ad01eb292f1544724fa53cfd14b966d7e" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.ping" alt="" coords="939,70,1176,111"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#a5e1ddd438b42947a54e4df03d7cf044e" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.call\l_all_wait" alt="" coords="941,136,1173,192"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#a71ca06aa860331744402f3785da26aeb" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.call" alt="" coords="941,217,1173,258"/>
+</map>

@@ -1,0 +1,72 @@
+\hypertarget{namespacecheshire3_1_1commands_1_1register}{\section{cheshire3.\-commands.\-register Namespace Reference}
+\label{namespacecheshire3_1_1commands_1_1register}\index{cheshire3.\-commands.\-register@{cheshire3.\-commands.\-register}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacecheshire3_1_1commands_1_1register_a86791899e9e8a2c8750b7d1296c99278}{main}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+tuple {\bfseries argparser}
+\item 
+\hypertarget{namespacecheshire3_1_1commands_1_1register_a909c434df4e820e2c4df533a7c237580}{string {\bfseries action} = 'store'}\label{namespacecheshire3_1_1commands_1_1register_a909c434df4e820e2c4df533a7c237580}
+
+\item 
+\hypertarget{namespacecheshire3_1_1commands_1_1register_a5e57e08ce8f363d360de36bba04bc120}{tuple {\bfseries default} = os.\-path.\-join(os.\-getcwd(), 'config.\-xml')}\label{namespacecheshire3_1_1commands_1_1register_a5e57e08ce8f363d360de36bba04bc120}
+
+\item 
+\hypertarget{namespacecheshire3_1_1commands_1_1register_a8bdfbad90a7431091ffb3cbe152a9f25}{string {\bfseries metavar} = 'C\-O\-N\-F\-I\-G\-F\-I\-L\-E'}\label{namespacecheshire3_1_1commands_1_1register_a8bdfbad90a7431091ffb3cbe152a9f25}
+
+\item 
+tuple {\bfseries help}
+\item 
+\hypertarget{namespacecheshire3_1_1commands_1_1register_aecac114cea674c1714b7600f2d5fc9ea}{{\bfseries session} = None}\label{namespacecheshire3_1_1commands_1_1register_aecac114cea674c1714b7600f2d5fc9ea}
+
+\item 
+\hypertarget{namespacecheshire3_1_1commands_1_1register_afe68553ea651cec898e7e539e9de95cd}{{\bfseries server} = None}\label{namespacecheshire3_1_1commands_1_1register_afe68553ea651cec898e7e539e9de95cd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Register a Cheshire3 Database config file.
+
+Register a configuration file for a Cheshire3 Database with the server.
+
+This process simply tells the server that it should include the
+configuration(s) in your file (it does not ingest your file) so you
+don't need to re-register when you make changes to the file.
+\end{DoxyVerb}
+ 
+
+\subsection{Function Documentation}
+\hypertarget{namespacecheshire3_1_1commands_1_1register_a86791899e9e8a2c8750b7d1296c99278}{\index{cheshire3\-::commands\-::register@{cheshire3\-::commands\-::register}!main@{main}}
+\index{main@{main}!cheshire3::commands::register@{cheshire3\-::commands\-::register}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-commands.\-register.\-main (
+\begin{DoxyParamCaption}
+\item[{}]{argv = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{namespacecheshire3_1_1commands_1_1register_a86791899e9e8a2c8750b7d1296c99278}
+\begin{DoxyVerb}Register a Database configuration file with the Cheshire3 Server.\end{DoxyVerb}
+ 
+
+\subsection{Variable Documentation}
+\hypertarget{namespacecheshire3_1_1commands_1_1register_aaf1030e2e59995cf7cf72f74c85a3ef6}{\index{cheshire3\-::commands\-::register@{cheshire3\-::commands\-::register}!argparser@{argparser}}
+\index{argparser@{argparser}!cheshire3::commands::register@{cheshire3\-::commands\-::register}}
+\subsubsection[{argparser}]{\setlength{\rightskip}{0pt plus 5cm}tuple cheshire3.\-commands.\-register.\-argparser}}\label{namespacecheshire3_1_1commands_1_1register_aaf1030e2e59995cf7cf72f74c85a3ef6}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = \hyperlink{classcheshire3_1_1commands_1_1cmd__utils_1_1_cheshire3_argument_parser}{Cheshire3ArgumentParser}(conflict\_handler=\textcolor{stringliteral}{'resolve'},
+2                                     description=\_\_doc\_\_.splitlines()[0])
+\end{DoxyCode}
+\hypertarget{namespacecheshire3_1_1commands_1_1register_a1310b299c530dd5e9c9f5fdfebe0409c}{\index{cheshire3\-::commands\-::register@{cheshire3\-::commands\-::register}!help@{help}}
+\index{help@{help}!cheshire3::commands::register@{cheshire3\-::commands\-::register}}
+\subsubsection[{help}]{\setlength{\rightskip}{0pt plus 5cm}tuple cheshire3.\-commands.\-register.\-help}}\label{namespacecheshire3_1_1commands_1_1register_a1310b299c530dd5e9c9f5fdfebe0409c}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = (\textcolor{stringliteral}{"path to configuration file for the database to "}
+2                              \textcolor{stringliteral}{"register with the Cheshire3 server. Default: "}
+3                              \textcolor{stringliteral}{"config.xml"})
+\end{DoxyCode}

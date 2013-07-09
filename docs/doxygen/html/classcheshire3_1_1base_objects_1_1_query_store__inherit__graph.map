@@ -1,0 +1,8 @@
+<map id="cheshire3.baseObjects.QueryStore" name="cheshire3.baseObjects.QueryStore">
+<area shape="rect" id="node5" href="$classcheshire3_1_1query_store_1_1_simple_query_store.html" title="cheshire3.queryStore.Simple\lQueryStore" alt="" coords="95,353,288,394"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_object_store.html" title="cheshire3.baseObjects.Object\lStore" alt="" coords="92,171,292,213"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="103,81,281,122"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="163,5,220,32"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1query_store_1_1_bdb_query_store.html" title="cheshire3.queryStore.Bdb\lQueryStore" alt="" coords="5,443,181,485"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1sql_1_1query_store_1_1_postgres_query_store.html" title="cheshire3.sql.queryStore.\lPostgresQueryStore" alt="" coords="205,443,379,485"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="Exception" name="Exception">
+<area shape="rect" id="node2" href="$classcheshire3_1_1cql_parser_1_1_diagnostic.html" title="cheshire3.cqlParser.Diagnostic" alt="" coords="144,484,349,511"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1exceptions_1_1_c3_exception.html" title="cheshire3.exceptions.C3Exception" alt="" coords="133,535,360,561"/>
+<area shape="rect" id="node21" href="$classcheshire3_1_1grid_1_1srboo_1_1_srb_exception.html" title="cheshire3.grid.srboo.Srb\lException" alt="" coords="163,586,330,627"/>
+<area shape="rect" id="node22" href="$classcheshire3_1_1marc__utils_1_1_marc_error.html" title="cheshire3.marc_utils.Marc\lError" alt="" coords="158,651,335,693"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1exceptions_1_1_c3_object_type_error.html" title="cheshire3.exceptions.C3Object\lTypeError" alt="" coords="414,5,621,46"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1exceptions_1_1_config_file_exception.html" title="cheshire3.exceptions.Config\lFileException" alt="" coords="423,70,612,111"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1exceptions_1_1_external_system_exception.html" title="cheshire3.exceptions.External\lSystemException" alt="" coords="417,135,617,177"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1exceptions_1_1_file_already_exists_exception.html" title="cheshire3.exceptions.File\lAlreadyExistsException" alt="" coords="431,201,603,242"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1exceptions_1_1_file_does_not_exist_exception.html" title="cheshire3.exceptions.File\lDoesNotExistException" alt="" coords="431,266,603,307"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1exceptions_1_1_file_system_exception.html" title="cheshire3.exceptions.File\lSystemException" alt="" coords="431,331,603,373"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1exceptions_1_1_integrity_exception.html" title="cheshire3.exceptions.Integrity\lException" alt="" coords="418,397,617,438"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1exceptions_1_1_missing_dependency_exception.html" title="cheshire3.exceptions.Missing\lDependencyException" alt="" coords="419,462,615,503"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1exceptions_1_1_object_already_exists_exception.html" title="cheshire3.exceptions.Object\lAlreadyExistsException" alt="" coords="423,527,612,569"/>
+<area shape="rect" id="node13" href="$classcheshire3_1_1exceptions_1_1_object_deleted_exception.html" title="cheshire3.exceptions.Object\lDeletedException" alt="" coords="423,593,612,634"/>
+<area shape="rect" id="node14" href="$classcheshire3_1_1exceptions_1_1_object_does_not_exist_exception.html" title="cheshire3.exceptions.Object\lDoesNotExistException" alt="" coords="423,658,612,699"/>
+<area shape="rect" id="node15" href="$classcheshire3_1_1exceptions_1_1_permission_exception.html" title="cheshire3.exceptions.Permission\lException" alt="" coords="409,723,626,765"/>
+<area shape="rect" id="node16" href="$classcheshire3_1_1exceptions_1_1_query_exception.html" title="cheshire3.exceptions.Query\lException" alt="" coords="424,789,611,830"/>
+<area shape="rect" id="node17" href="$classcheshire3_1_1exceptions_1_1_x_m_l_syntax_error.html" title="cheshire3.exceptions.XMLSyntax\lError" alt="" coords="408,854,627,895"/>
+<area shape="rect" id="node18" href="$classcheshire3_1_1formats_1_1exceptions_1_1_infected_file_exception.html" title="cheshire3.formats.exceptions.\lInfectedFileException" alt="" coords="418,919,617,961"/>
+<area shape="rect" id="node19" href="$classcheshire3_1_1record_1_1_numeric_predicate_exception.html" title="cheshire3.record.Numeric\lPredicateException" alt="" coords="430,985,605,1026"/>
+<area shape="rect" id="node20" href="$classcheshire3_1_1workflow_1_1_workflow_exception.html" title="cheshire3.workflow.Workflow\lException" alt="" coords="421,1050,614,1091"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="cheshire3.web.documentFactory.RemoteDocumentStream" name="cheshire3.web.documentFactory.RemoteDocumentStream">
+<area shape="rect" id="node3" href="$classcheshire3_1_1web_1_1document_factory_1_1_ftp_document_stream.html" title="cheshire3.web.documentFactory.\lFtpDocumentStream" alt="" coords="512,151,731,193"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1web_1_1document_factory_1_1_http_document_stream.html" title="cheshire3.web.documentFactory.\lHttpDocumentStream" alt="" coords="512,217,731,258"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1web_1_1document_factory_1_1_oai_document_stream_1_1_syndication_document_stream.html" title="cheshire3.web.documentFactory.\lOaiDocumentStream.SyndicationDocument\lStream" alt="" coords="781,348,1061,404"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1web_1_1document_factory_1_1_z3950_document_stream.html" title="cheshire3.web.documentFactory.\lZ3950DocumentStream" alt="" coords="512,334,731,375"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1document_factory_1_1_base_document_stream.html" title="cheshire3.documentFactory.\lBaseDocumentStream" alt="" coords="6,246,197,287"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1web_1_1document_factory_1_1_acc_http_document_stream.html" title="cheshire3.web.documentFactory.\lAccHttpDocumentStream" alt="" coords="812,5,1031,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1web_1_1document_factory_1_1_oai_document_stream.html" title="cheshire3.web.documentFactory.\lOaiDocumentStream" alt="" coords="812,70,1031,111"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1web_1_1document_factory_1_1_oai_document_stream_1_1_opensearch_document_stream.html" title="cheshire3.web.documentFactory.\lOaiDocumentStream.OpensearchDocument\lStream" alt="" coords="779,136,1063,192"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1web_1_1document_factory_1_1_sru_document_stream.html" title="cheshire3.web.documentFactory.\lSruDocumentStream" alt="" coords="812,217,1031,258"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1web_1_1document_factory_1_1_srw_document_stream.html" title="cheshire3.web.documentFactory.\lSrwDocumentStream" alt="" coords="812,282,1031,323"/>
+</map>

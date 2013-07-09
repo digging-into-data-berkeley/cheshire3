@@ -1,0 +1,9 @@
+<map id="cheshire3.tokenizer.OffsetTokenizer" name="cheshire3.tokenizer.OffsetTokenizer">
+<area shape="rect" id="node5" href="$classcheshire3_1_1corpus_1_1tokenizer_1_1_supplied_offset_tokenizer.html" title="cheshire3.corpus.tokenizer.\lSuppliedOffsetTokenizer" alt="" coords="835,5,1021,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1tokenizer_1_1_python_tokenizer.html" title="cheshire3.tokenizer.Python\lTokenizer" alt="" coords="837,70,1019,111"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1tokenizer_1_1_regexp_find_offset_tokenizer.html" title="cheshire3.tokenizer.Regexp\lFindOffsetTokenizer" alt="" coords="835,135,1021,177"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_tokenizer.html" title="cheshire3.baseObjects.Tokenizer" alt="" coords="339,77,559,104"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,70,291,111"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="6,77,63,104"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1tokenizer_1_1_regexp_find_punctuation_offset_tokenizer.html" title="cheshire3.tokenizer.Regexp\lFindPunctuationOffsetTokenizer" alt="" coords="1070,135,1282,177"/>
+</map>

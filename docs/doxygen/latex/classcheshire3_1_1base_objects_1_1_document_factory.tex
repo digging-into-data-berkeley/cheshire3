@@ -1,0 +1,111 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_document_factory}{\section{cheshire3.\-base\-Objects.\-Document\-Factory Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_document_factory}\index{cheshire3.\-base\-Objects.\-Document\-Factory@{cheshire3.\-base\-Objects.\-Document\-Factory}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Document\-Factory\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_document_factory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Document\-Factory\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{classcheshire3_1_1base_objects_1_1_document_factory__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_document_factory_aa628a33166ebe7ec73b909ddcbe8136b}{load}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_document_factory_a7de842aa876ddabb37ead4061e394221}{get\-\_\-document}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_document_factory_a04eab0cb44ca363cface0c6056221848}{register\-\_\-stream}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}A DocumentFactory takes raw data, returns one or more Documents.
+
+A DocumentFacory can be used to return Documents from e.g. a file, a 
+directory containing many files, archive files, a URL, or a web-based API.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_document_factory_a7de842aa876ddabb37ead4061e394221}{\index{cheshire3\-::base\-Objects\-::\-Document\-Factory@{cheshire3\-::base\-Objects\-::\-Document\-Factory}!get\-\_\-document@{get\-\_\-document}}
+\index{get\-\_\-document@{get\-\_\-document}!cheshire3::baseObjects::DocumentFactory@{cheshire3\-::base\-Objects\-::\-Document\-Factory}}
+\subsubsection[{get\-\_\-document}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Document\-Factory.\-get\-\_\-document (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{n = {\ttfamily -\/1}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_document_factory_a7de842aa876ddabb37ead4061e394221}
+\begin{DoxyVerb}Return the Document at index n.\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_document_factory_aa628a33166ebe7ec73b909ddcbe8136b}{\index{cheshire3\-::base\-Objects\-::\-Document\-Factory@{cheshire3\-::base\-Objects\-::\-Document\-Factory}!load@{load}}
+\index{load@{load}!cheshire3::baseObjects::DocumentFactory@{cheshire3\-::base\-Objects\-::\-Document\-Factory}}
+\subsubsection[{load}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Document\-Factory.\-load (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{data, }
+\item[{}]{cache = {\ttfamily None}, }
+\item[{}]{format = {\ttfamily None}, }
+\item[{}]{tag\-Name = {\ttfamily None}, }
+\item[{}]{codec = {\ttfamily \char`\"{}\char`\"{}}}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_document_factory_aa628a33166ebe7ec73b909ddcbe8136b}
+\begin{DoxyVerb}Load documents into the document factory from data.
+
+Returns the DocumentFactory itself which acts as an iterator
+DocumentFactory's load function takes session, plus:
+
+data     := the data to load. Could be a filename, a directory name, 
+    the data as a string, a URL to the data etc.
+
+cache    := setting for how to cache documents in memory when reading 
+    them in.
+
+format   := format of the data parameter. Many options, most common:
+    * xml  -- XML file. May contain multiple records
+    * dir  -- a directory containing files to load
+    * tar  -- a tar file containing files to load
+    * zip  -- a zip file containing files to load
+    * marc -- a file with MARC records (library catalogue data)
+    * http -- a base HTTP URL to retrieve
+    
+tagName  := name of the tag which starts (and ends!) a Record.
+
+codec    := name of the codec in which the data is encoded.
+\end{DoxyVerb}
+ \hypertarget{classcheshire3_1_1base_objects_1_1_document_factory_a04eab0cb44ca363cface0c6056221848}{\index{cheshire3\-::base\-Objects\-::\-Document\-Factory@{cheshire3\-::base\-Objects\-::\-Document\-Factory}!register\-\_\-stream@{register\-\_\-stream}}
+\index{register\-\_\-stream@{register\-\_\-stream}!cheshire3::baseObjects::DocumentFactory@{cheshire3\-::base\-Objects\-::\-Document\-Factory}}
+\subsubsection[{register\-\_\-stream}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Document\-Factory.\-register\-\_\-stream (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{format, }
+\item[{}]{cls}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_document_factory_a04eab0cb44ca363cface0c6056221848}
+\begin{DoxyVerb}Register a new format, handled by given DocumentStream (cls).
+ 
+Class method to register an implementation of a DocumentStream (cls) 
+against a name for the format parameter (format) in future calls to 
+load().
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

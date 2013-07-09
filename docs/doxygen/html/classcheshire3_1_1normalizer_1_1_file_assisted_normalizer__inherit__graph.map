@@ -1,0 +1,8 @@
+<map id="cheshire3.normalizer.FileAssistedNormalizer" name="cheshire3.normalizer.FileAssistedNormalizer">
+<area shape="rect" id="node6" href="$classcheshire3_1_1normalizer_1_1_stoplist_normalizer.html" title="cheshire3.normalizer.Stoplist\lNormalizer" alt="" coords="1073,5,1266,46"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1normalizer_1_1_token_expansion_normalizer.html" title="cheshire3.normalizer.Token\lExpansionNormalizer" alt="" coords="1076,70,1263,111"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1normalizer_1_1_simple_normalizer.html" title="cheshire3.normalizer.Simple\lNormalizer" alt="" coords="614,38,805,79"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_objects_1_1_normalizer.html" title="cheshire3.baseObjects.Normalizer" alt="" coords="339,45,565,72"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,38,291,79"/>
+<area shape="rect" id="node5" href="$classobject.html" title="object" alt="" coords="6,45,63,72"/>
+</map>

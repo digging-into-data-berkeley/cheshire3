@@ -1,0 +1,53 @@
+\hypertarget{namespacecheshire3_1_1web_1_1oaipmh_handler}{\section{cheshire3.\-web.\-oaipmh\-Handler Namespace Reference}
+\label{namespacecheshire3_1_1web_1_1oaipmh_handler}\index{cheshire3.\-web.\-oaipmh\-Handler@{cheshire3.\-web.\-oaipmh\-Handler}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classcheshire3_1_1web_1_1oaipmh_handler_1_1_cheshire3_oai_metadata_writer}{Cheshire3\-Oai\-Metadata\-Writer}
+\item 
+class \hyperlink{classcheshire3_1_1web_1_1oaipmh_handler_1_1_minimal_oai_server}{Minimal\-Oai\-Server}
+\item 
+class \hyperlink{classcheshire3_1_1web_1_1oaipmh_handler_1_1_minimal_x_m_l_tree_server}{Minimal\-X\-M\-L\-Tree\-Server}
+\item 
+class \hyperlink{classcheshire3_1_1web_1_1oaipmh_handler_1_1_minimal_resumption_server}{Minimal\-Resumption\-Server}
+\item 
+class \hyperlink{classcheshire3_1_1web_1_1oaipmh_handler_1_1_cheshire3_oai_server}{Cheshire3\-Oai\-Server}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacecheshire3_1_1web_1_1oaipmh_handler_a2eea3a427825a61c6fc70cf614d4056e}{get\-\_\-databases\-And\-Configs}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespacecheshire3_1_1web_1_1oaipmh_handler_a39cf6bc1858043e1388488449d3e14fa}{tuple {\bfseries session} = Session()}\label{namespacecheshire3_1_1web_1_1oaipmh_handler_a39cf6bc1858043e1388488449d3e14fa}
+
+\item 
+\hypertarget{namespacecheshire3_1_1web_1_1oaipmh_handler_aa0ea2ac3833f85faea60b01bacc8e53c}{tuple {\bfseries serv} = \hyperlink{classcheshire3_1_1server_1_1_simple_server}{Simple\-Server}(session, os.\-path.\-join(cheshire3\-Root, 'configs', 'server\-Config.\-xml'))}\label{namespacecheshire3_1_1web_1_1oaipmh_handler_aa0ea2ac3833f85faea60b01bacc8e53c}
+
+\item 
+\hypertarget{namespacecheshire3_1_1web_1_1oaipmh_handler_a522594dcac85754a0b6882d3c2b75c21}{tuple {\bfseries lxml\-Parser} = serv.\-get\-\_\-object(session, 'Lxml\-Parser')}\label{namespacecheshire3_1_1web_1_1oaipmh_handler_a522594dcac85754a0b6882d3c2b75c21}
+
+\item 
+\hypertarget{namespacecheshire3_1_1web_1_1oaipmh_handler_a890337834e44e98c5b36b76cfcedd619}{dictionary {\bfseries c3\-Oai\-Servers} = \{\}}\label{namespacecheshire3_1_1web_1_1oaipmh_handler_a890337834e44e98c5b36b76cfcedd619}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Generic Base Class for OAI-PMH server implementation.\end{DoxyVerb}
+ 
+
+\subsection{Function Documentation}
+\hypertarget{namespacecheshire3_1_1web_1_1oaipmh_handler_a2eea3a427825a61c6fc70cf614d4056e}{\index{cheshire3\-::web\-::oaipmh\-Handler@{cheshire3\-::web\-::oaipmh\-Handler}!get\-\_\-databases\-And\-Configs@{get\-\_\-databases\-And\-Configs}}
+\index{get\-\_\-databases\-And\-Configs@{get\-\_\-databases\-And\-Configs}!cheshire3::web::oaipmhHandler@{cheshire3\-::web\-::oaipmh\-Handler}}
+\subsubsection[{get\-\_\-databases\-And\-Configs}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-web.\-oaipmh\-Handler.\-get\-\_\-databases\-And\-Configs (
+\begin{DoxyParamCaption}
+\item[{}]{session, }
+\item[{}]{serv}
+\end{DoxyParamCaption}
+)}}\label{namespacecheshire3_1_1web_1_1oaipmh_handler_a2eea3a427825a61c6fc70cf614d4056e}
+\begin{DoxyVerb}Get and return database and config mappings from Server.\end{DoxyVerb}
+ 

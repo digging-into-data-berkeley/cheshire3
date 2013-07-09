@@ -1,0 +1,9 @@
+<map id="cheshire3.parallel.mpTaskManager.ProcessTaskManager.send" name="cheshire3.parallel.mpTaskManager.ProcessTaskManager.send">
+<area shape="rect" id="node2" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#af565797d7e3231598177b7e12a38fea1" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.send_all" alt="" coords="297,87,559,129"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#add615b936f645e5f6e17516b177d101b" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.send_any" alt="" coords="293,169,563,210"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#a536127426588621d1202946cbcb2d21c" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.shutdown" alt="" coords="611,5,880,46"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#ad01eb292f1544724fa53cfd14b966d7e" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.ping" alt="" coords="627,70,864,111"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#aab7389879dc68028dde0c77d47da45ec" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.call_all" alt="" coords="619,135,871,177"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#a5e1ddd438b42947a54e4df03d7cf044e" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.call\l_all_wait" alt="" coords="928,128,1160,184"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1parallel_1_1mp_task_manager_1_1_process_task_manager.html#a71ca06aa860331744402f3785da26aeb" title="cheshire3.parallel.mpTask\lManager.ProcessTaskManager.call" alt="" coords="629,201,861,242"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="cheshire3.test.testParser.ParserTestCase" name="cheshire3.test.testParser.ParserTestCase">
+<area shape="rect" id="node4" href="$classcheshire3_1_1test_1_1test_parser_1_1_xml_parser_test_case.html" title="cheshire3.test.testParser.\lXmlParserTestCase" alt="" coords="624,70,797,111"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1test_1_1test_config_parser_1_1_cheshire3_object_test_case.html" title="cheshire3.test.testConfig\lParser.Cheshire3ObjectTestCase" alt="" coords="133,70,355,111"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1test_1_1test_parser_1_1_lxml_parser_test_case.html" title="cheshire3.test.testParser.\lLxmlParserTestCase" alt="" coords="845,5,1019,46"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1test_1_1test_parser_1_1_minidom_parser_test_case.html" title="cheshire3.test.testParser.\lMinidomParserTestCase" alt="" coords="845,70,1019,111"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1test_1_1test_parser_1_1_sax_parser_test_case.html" title="cheshire3.test.testParser.\lSaxParserTestCase" alt="" coords="845,135,1019,177"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1test_1_1test_parser_1_1_lxml_html_parser_test_case.html" title="cheshire3.test.testParser.\lLxmlHtmlParserTestCase" alt="" coords="1067,5,1240,46"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1test_1_1test_parser_1_1_ns_sax_parser_test_case.html" title="cheshire3.test.testParser.\lNsSaxParserTestCase" alt="" coords="1067,135,1240,177"/>
+</map>

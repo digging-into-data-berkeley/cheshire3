@@ -1,0 +1,10 @@
+<map id="cheshire3.grid.irodsStore.IrodsDocumentStore" name="cheshire3.grid.irodsStore.IrodsDocumentStore">
+<area shape="rect" id="node2" href="$classcheshire3_1_1document_store_1_1_simple_document_store.html" title="cheshire3.documentStore.\lSimpleDocumentStore" alt="" coords="886,7,1063,49"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_objects_1_1_document_store.html" title="cheshire3.baseObjects.Document\lStore" alt="" coords="614,5,837,46"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1base_objects_1_1_object_store.html" title="cheshire3.baseObjects.Object\lStore" alt="" coords="365,5,565,46"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="125,5,304,46"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1base_store_1_1_simple_store.html" title="cheshire3.baseStore.Simple\lStore" alt="" coords="371,70,560,111"/>
+<area shape="rect" id="node6" href="$classobject.html" title="object" alt="" coords="6,45,63,72"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1base_store_1_1_summary_object.html" title="cheshire3.baseStore.Summary\lObject" alt="" coords="112,70,317,111"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_store.html" title="cheshire3.grid.irodsStore.\lIrodsStore" alt="" coords="639,70,812,111"/>
+</map>

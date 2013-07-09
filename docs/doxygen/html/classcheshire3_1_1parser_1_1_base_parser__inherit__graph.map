@@ -1,0 +1,15 @@
+<map id="cheshire3.parser.BaseParser" name="cheshire3.parser.BaseParser">
+<area shape="rect" id="node5" href="$classcheshire3_1_1graph_1_1parser_1_1_rdfa_parser.html" title="cheshire3.graph.parser.Rdfa\lParser" alt="" coords="837,6,1027,47"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1graph_1_1parser_1_1_rdf_graph_parser.html" title="cheshire3.graph.parser.Rdf\lGraphParser" alt="" coords="840,71,1024,113"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1parser_1_1_lxml_html_parser.html" title="cheshire3.parser.LxmlHtml\lParser" alt="" coords="842,137,1022,178"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1parser_1_1_lxml_parser.html" title="cheshire3.parser.LxmlParser" alt="" coords="836,203,1028,229"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1parser_1_1_marc_parser.html" title="cheshire3.parser.MarcParser" alt="" coords="835,253,1029,280"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1parser_1_1_minidom_parser.html" title="cheshire3.parser.Minidom\lParser" alt="" coords="844,305,1020,346"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1parser_1_1_pass_through_parser.html" title="cheshire3.parser.PassThrough\lParser" alt="" coords="830,370,1034,411"/>
+<area shape="rect" id="node13" href="$classcheshire3_1_1parser_1_1_sax_parser.html" title="cheshire3.parser.SaxParser" alt="" coords="839,436,1025,463"/>
+<area shape="rect" id="node14" href="$classcheshire3_1_1parser_1_1_stored_sax_parser.html" title="cheshire3.parser.StoredSax\lParser" alt="" coords="839,487,1025,529"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_parser.html" title="cheshire3.baseObjects.Parser" alt="" coords="339,203,539,229"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,195,291,237"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="6,203,63,229"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1graph_1_1parser_1_1_ore_rdf_graph_parser.html" title="cheshire3.graph.parser.Ore\lRdfGraphParser" alt="" coords="1083,71,1269,113"/>
+</map>

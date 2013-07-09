@@ -1,0 +1,67 @@
+\hypertarget{namespacecheshire3_1_1commands_1_1serve}{\section{cheshire3.\-commands.\-serve Namespace Reference}
+\label{namespacecheshire3_1_1commands_1_1serve}\index{cheshire3.\-commands.\-serve@{cheshire3.\-commands.\-serve}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacecheshire3_1_1commands_1_1serve_af6485d0c98fc3c34b59d0a71f64eb506}{main}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+tuple {\bfseries argparser}
+\item 
+\hypertarget{namespacecheshire3_1_1commands_1_1serve_a2ed1c7a08077de0ce5be407674bbacc7}{string {\bfseries action} = 'store'}\label{namespacecheshire3_1_1commands_1_1serve_a2ed1c7a08077de0ce5be407674bbacc7}
+
+\item 
+\hypertarget{namespacecheshire3_1_1commands_1_1serve_a525e35911ee51829a621cbc1dec25fd8}{string {\bfseries default} = '127.\-0.\-0.\-1'}\label{namespacecheshire3_1_1commands_1_1serve_a525e35911ee51829a621cbc1dec25fd8}
+
+\item 
+tuple {\bfseries help}
+\item 
+\hypertarget{namespacecheshire3_1_1commands_1_1serve_a5b66fee0baf25551a5098880e9f9c79f}{{\bfseries c3\-\_\-session} = None}\label{namespacecheshire3_1_1commands_1_1serve_a5b66fee0baf25551a5098880e9f9c79f}
+
+\item 
+\hypertarget{namespacecheshire3_1_1commands_1_1serve_a59234499130d4314e2b092d663099585}{{\bfseries c3\-\_\-server} = None}\label{namespacecheshire3_1_1commands_1_1serve_a59234499130d4314e2b092d663099585}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Start a demo server to expose Cheshire3 databases via SRU etc.
+
+Start an HTTP server to expose Cheshire3 databases via SRU, OAI-PMH (and maybe
+more in future) protocols for development and demonstration purposes.
+
+The current implementation uses CherryPy. 
+\end{DoxyVerb}
+ 
+
+\subsection{Function Documentation}
+\hypertarget{namespacecheshire3_1_1commands_1_1serve_af6485d0c98fc3c34b59d0a71f64eb506}{\index{cheshire3\-::commands\-::serve@{cheshire3\-::commands\-::serve}!main@{main}}
+\index{main@{main}!cheshire3::commands::serve@{cheshire3\-::commands\-::serve}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-commands.\-serve.\-main (
+\begin{DoxyParamCaption}
+\item[{}]{argv = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}}\label{namespacecheshire3_1_1commands_1_1serve_af6485d0c98fc3c34b59d0a71f64eb506}
+\begin{DoxyVerb}Start up a CherryPy server to serve the SRU, OAI-PMH applications.\end{DoxyVerb}
+ 
+
+\subsection{Variable Documentation}
+\hypertarget{namespacecheshire3_1_1commands_1_1serve_aba5274a468ae8135c5a9c3fc11e81874}{\index{cheshire3\-::commands\-::serve@{cheshire3\-::commands\-::serve}!argparser@{argparser}}
+\index{argparser@{argparser}!cheshire3::commands::serve@{cheshire3\-::commands\-::serve}}
+\subsubsection[{argparser}]{\setlength{\rightskip}{0pt plus 5cm}tuple cheshire3.\-commands.\-serve.\-argparser}}\label{namespacecheshire3_1_1commands_1_1serve_aba5274a468ae8135c5a9c3fc11e81874}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = \hyperlink{classcheshire3_1_1commands_1_1cmd__utils_1_1_cheshire3_argument_parser}{Cheshire3ArgumentParser}(conflict\_handler=\textcolor{stringliteral}{'resolve'},
+2                                     description=\_\_doc\_\_.splitlines()[0])
+\end{DoxyCode}
+\hypertarget{namespacecheshire3_1_1commands_1_1serve_a205c883c7bb085b2820c3efd8971afa9}{\index{cheshire3\-::commands\-::serve@{cheshire3\-::commands\-::serve}!help@{help}}
+\index{help@{help}!cheshire3::commands::serve@{cheshire3\-::commands\-::serve}}
+\subsubsection[{help}]{\setlength{\rightskip}{0pt plus 5cm}string cheshire3.\-commands.\-serve.\-help}}\label{namespacecheshire3_1_1commands_1_1serve_a205c883c7bb085b2820c3efd8971afa9}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+1 = (\textcolor{stringliteral}{"name of host to listen on. default derived by "}
+2                         \textcolor{stringliteral}{"inspection of local system"})
+\end{DoxyCode}

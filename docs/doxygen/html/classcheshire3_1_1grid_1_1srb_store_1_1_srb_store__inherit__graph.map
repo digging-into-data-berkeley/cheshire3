@@ -1,0 +1,10 @@
+<map id="cheshire3.grid.srbStore.SrbStore" name="cheshire3.grid.srbStore.SrbStore">
+<area shape="rect" id="node4" href="$classcheshire3_1_1grid_1_1srb_store_1_1_srb_bdb_combine_store.html" title="cheshire3.grid.srbStore.\lSrbBdbCombineStore" alt="" coords="553,70,717,111"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1grid_1_1srb_store_1_1_srb_document_store.html" title="cheshire3.grid.srbStore.\lSrbDocumentStore" alt="" coords="553,135,717,177"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1grid_1_1srb_store_1_1_srb_record_store.html" title="cheshire3.grid.srbStore.\lSrbRecordStore" alt="" coords="553,201,717,242"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,135,291,177"/>
+<area shape="rect" id="node3" href="$classobject.html" title="object" alt="" coords="6,143,63,169"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1grid_1_1srb_store_1_1_caching_srb_document_store.html" title="cheshire3.grid.srbStore.\lCachingSrbDocumentStore" alt="" coords="796,5,980,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1grid_1_1srb_store_1_1_caching_srb_record_store.html" title="cheshire3.grid.srbStore.\lCachingSrbRecordStore" alt="" coords="805,70,971,111"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1grid_1_1srb_store_1_1_caching_srb_remote_write_record_store.html" title="cheshire3.grid.srbStore.\lCachingSrbRemoteWriteRecordStore" alt="" coords="766,135,1010,177"/>
+</map>

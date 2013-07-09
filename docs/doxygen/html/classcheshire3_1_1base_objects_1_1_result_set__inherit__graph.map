@@ -1,0 +1,6 @@
+<map id="cheshire3.baseObjects.ResultSet" name="cheshire3.baseObjects.ResultSet">
+<area shape="rect" id="node3" href="$classcheshire3_1_1result_set_1_1_bitmap_result_set.html" title="cheshire3.resultSet.Bitmap\lResultSet" alt="" coords="5,155,187,197"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1result_set_1_1_ranked_result_set.html" title="cheshire3.resultSet.Ranked\lResultSet" alt="" coords="211,155,396,197"/>
+<area shape="rect" id="node2" href="$classobject.html" title="object" alt="" coords="171,5,228,32"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1result_set_1_1_simple_result_set.html" title="cheshire3.resultSet.Simple\lResultSet" alt="" coords="214,246,393,287"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="cheshire3.tokenMerger.ProximityTokenMerger" name="cheshire3.tokenMerger.ProximityTokenMerger">
+<area shape="rect" id="node6" href="$classcheshire3_1_1token_merger_1_1_offset_proximity_token_merger.html" title="cheshire3.tokenMerger.Offset\lProximityTokenMerger" alt="" coords="1108,5,1305,46"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1token_merger_1_1_phrase_token_merger.html" title="cheshire3.tokenMerger.Phrase\lTokenMerger" alt="" coords="1105,70,1309,111"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1token_merger_1_1_simple_token_merger.html" title="cheshire3.tokenMerger.Simple\lTokenMerger" alt="" coords="587,38,789,79"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_objects_1_1_token_merger.html" title="cheshire3.baseObjects.Token\lMerger" alt="" coords="339,38,538,79"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,38,291,79"/>
+<area shape="rect" id="node5" href="$classobject.html" title="object" alt="" coords="6,45,63,72"/>
+</map>

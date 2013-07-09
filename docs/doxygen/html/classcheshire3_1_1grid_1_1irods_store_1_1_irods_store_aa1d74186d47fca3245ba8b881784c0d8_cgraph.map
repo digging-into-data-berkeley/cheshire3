@@ -1,0 +1,5 @@
+<map id="cheshire3.grid.irodsStore.IrodsStore.delete_data" name="cheshire3.grid.irodsStore.IrodsStore.delete_data">
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_store_1_1_switching_bdb_connection.html#aa0a4cd03886c55b80c56163976b4991c" title="cheshire3.baseStore.Switching\lBdbConnection._open" alt="" coords="247,5,452,46"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_store_1_1_bdb_store.html#affbdf52db81fd8d0c503798828a3ff36" title="cheshire3.baseStore.BdbStore._open" alt="" coords="227,71,471,97"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_store.html#acaa9a4d661cae3c37f5fbcf4ef07e605" title="cheshire3.grid.irodsStore.\lIrodsStore._open" alt="" coords="263,122,436,163"/>
+</map>

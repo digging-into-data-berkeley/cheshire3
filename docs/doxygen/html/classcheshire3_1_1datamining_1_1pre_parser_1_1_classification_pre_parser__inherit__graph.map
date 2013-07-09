@@ -1,0 +1,10 @@
+<map id="cheshire3.datamining.preParser.ClassificationPreParser" name="cheshire3.datamining.preParser.ClassificationPreParser">
+<area shape="rect" id="node5" href="$classcheshire3_1_1datamining_1_1pre_parser_1_1_bpnn_pre_parser.html" title="cheshire3.datamining.pre\lParser.BpnnPreParser" alt="" coords="834,5,1006,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1datamining_1_1pre_parser_1_1_carm_pre_parser.html" title="cheshire3.datamining.pre\lParser.CarmPreParser" alt="" coords="834,70,1006,111"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1datamining_1_1pre_parser_1_1_lib_s_v_m_pre_parser.html" title="cheshire3.datamining.pre\lParser.LibSVMPreParser" alt="" coords="834,135,1006,177"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1datamining_1_1pre_parser_1_1_perceptron_pre_parser.html" title="cheshire3.datamining.pre\lParser.PerceptronPreParser" alt="" coords="825,201,1015,242"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1datamining_1_1pre_parser_1_1_reverend_pre_parser.html" title="cheshire3.datamining.pre\lParser.ReverendPreParser" alt="" coords="829,266,1011,307"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_pre_parser.html" title="cheshire3.baseObjects.Pre\lParser" alt="" coords="339,135,522,177"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,135,291,177"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="6,143,63,169"/>
+</map>

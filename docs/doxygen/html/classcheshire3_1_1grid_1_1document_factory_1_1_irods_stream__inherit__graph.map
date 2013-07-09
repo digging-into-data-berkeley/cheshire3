@@ -1,0 +1,7 @@
+<map id="cheshire3.grid.documentFactory.IrodsStream" name="cheshire3.grid.documentFactory.IrodsStream">
+<area shape="rect" id="node3" href="$classcheshire3_1_1grid_1_1document_factory_1_1_irods_directory_document_stream.html" title="cheshire3.grid.documentFactory.\lIrodsDirectoryDocumentStream" alt="" coords="376,5,592,46"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1grid_1_1document_factory_1_1_irods_file_document_stream.html" title="cheshire3.grid.documentFactory.\lIrodsFileDocumentStream" alt="" coords="376,70,592,111"/>
+<area shape="rect" id="node2" href="$classobject.html" title="object" alt="" coords="6,45,63,72"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1grid_1_1document_factory_1_1_irods_consuming_directory_document_stream.html" title="cheshire3.grid.documentFactory.\lIrodsConsumingDirectoryDocumentStream" alt="" coords="641,5,917,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1grid_1_1document_factory_1_1_irods_consuming_file_document_stream.html" title="cheshire3.grid.documentFactory.\lIrodsConsumingFileDocumentStream" alt="" coords="657,70,901,111"/>
+</map>

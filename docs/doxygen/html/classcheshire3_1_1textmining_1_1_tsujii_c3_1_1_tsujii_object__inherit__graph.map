@@ -1,0 +1,7 @@
+<map id="cheshire3.textmining.TsujiiC3.TsujiiObject" name="cheshire3.textmining.TsujiiC3.TsujiiObject">
+<area shape="rect" id="node2" href="$classcheshire3_1_1textmining_1_1normalizer_1_1_tsujii_pos_normalizer.html" title="cheshire3.textmining.normalizer.\lTsujiiPosNormalizer" alt="" coords="236,5,449,46"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1textmining_1_1pre_parser_1_1_tsujii_text_pos_pre_parser.html" title="cheshire3.textmining.pre\lParser.TsujiiTextPosPreParser" alt="" coords="240,70,445,111"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1textmining_1_1pre_parser_1_1_tsujii_x_m_l_pos_pre_parser.html" title="cheshire3.textmining.pre\lParser.TsujiiXMLPosPreParser" alt="" coords="239,135,446,177"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1textmining_1_1transformer_1_1_tsujii_text_pos_transformer.html" title="cheshire3.textmining.transformer.\lTsujiiTextPosTransformer" alt="" coords="233,201,453,242"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1textmining_1_1transformer_1_1_tsujii_x_path_transformer.html" title="cheshire3.textmining.transformer.\lTsujiiXPathTransformer" alt="" coords="233,266,453,307"/>
+</map>

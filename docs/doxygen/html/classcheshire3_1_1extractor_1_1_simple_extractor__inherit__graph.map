@@ -1,0 +1,11 @@
+<map id="cheshire3.extractor.SimpleExtractor" name="cheshire3.extractor.SimpleExtractor">
+<area shape="rect" id="node5" href="$classcheshire3_1_1corpus_1_1extractor_1_1_span_x_path_tagged_term_extractor.html" title="cheshire3.corpus.extractor.\lSpanXPathTaggedTermExtractor" alt="" coords="832,5,1051,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1corpus_1_1extractor_1_1_tagged_term_extractor.html" title="cheshire3.corpus.extractor.\lTaggedTermExtractor" alt="" coords="850,70,1033,111"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1corpus_1_1extractor_1_1_template_term_extractor.html" title="cheshire3.corpus.extractor.\lTemplateTermExtractor" alt="" coords="850,135,1033,177"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1extractor_1_1_span_x_path_extractor.html" title="cheshire3.extractor.Span\lXPathExtractor" alt="" coords="856,201,1027,242"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1extractor_1_1_tei_extractor.html" title="cheshire3.extractor.TeiExtractor" alt="" coords="836,267,1047,293"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1graph_1_1extractor_1_1_rdf_extractor.html" title="cheshire3.graph.extractor.\lRdfExtractor" alt="" coords="853,318,1030,359"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_extractor.html" title="cheshire3.baseObjects.Extractor" alt="" coords="339,208,554,235"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,201,291,242"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="6,208,63,235"/>
+</map>

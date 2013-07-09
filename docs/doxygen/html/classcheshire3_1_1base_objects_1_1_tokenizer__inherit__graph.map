@@ -1,0 +1,23 @@
+<map id="cheshire3.baseObjects.Tokenizer" name="cheshire3.baseObjects.Tokenizer">
+<area shape="rect" id="node4" href="$classcheshire3_1_1tokenizer_1_1_offset_tokenizer.html" title="cheshire3.tokenizer.Offset\lTokenizer" alt="" coords="611,99,789,141"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1tokenizer_1_1_simple_tokenizer.html" title="cheshire3.tokenizer.Simple\lTokenizer" alt="" coords="609,482,791,523"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,290,291,331"/>
+<area shape="rect" id="node3" href="$classobject.html" title="object" alt="" coords="6,297,63,324"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1corpus_1_1tokenizer_1_1_supplied_offset_tokenizer.html" title="cheshire3.corpus.tokenizer.\lSuppliedOffsetTokenizer" alt="" coords="850,5,1035,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1tokenizer_1_1_python_tokenizer.html" title="cheshire3.tokenizer.Python\lTokenizer" alt="" coords="851,70,1034,111"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1tokenizer_1_1_regexp_find_offset_tokenizer.html" title="cheshire3.tokenizer.Regexp\lFindOffsetTokenizer" alt="" coords="1108,158,1295,199"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1tokenizer_1_1_regexp_find_punctuation_offset_tokenizer.html" title="cheshire3.tokenizer.Regexp\lFindPunctuationOffsetTokenizer" alt="" coords="1358,158,1570,199"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1lucene_1_1tokenizer_1_1_lucene_tokenizer.html" title="cheshire3.lucene.tokenizer.\lLuceneTokenizer" alt="" coords="851,579,1035,621"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1textmining_1_1tokenizer_1_1_nltk_punkt_sentence_tokenizer.html" title="cheshire3.textmining.tokenizer.\lNltkPunktSentenceTokenizer" alt="" coords="840,449,1045,490"/>
+<area shape="rect" id="node13" href="$classcheshire3_1_1textmining_1_1tokenizer_1_1_nltk_punkt_word_tokenizer.html" title="cheshire3.textmining.tokenizer.\lNltkPunktWordTokenizer" alt="" coords="840,514,1045,555"/>
+<area shape="rect" id="node14" href="$classcheshire3_1_1textmining_1_1tokenizer_1_1_unparsed_genia_tokenizer.html" title="cheshire3.textmining.tokenizer.\lUnparsedGeniaTokenizer" alt="" coords="840,645,1045,686"/>
+<area shape="rect" id="node16" href="$classcheshire3_1_1tokenizer_1_1_date_tokenizer.html" title="cheshire3.tokenizer.Date\lTokenizer" alt="" coords="858,775,1027,817"/>
+<area shape="rect" id="node18" href="$classcheshire3_1_1tokenizer_1_1_line_tokenizer.html" title="cheshire3.tokenizer.Line\lTokenizer" alt="" coords="859,710,1026,751"/>
+<area shape="rect" id="node19" href="$classcheshire3_1_1tokenizer_1_1_regexp_find_tokenizer.html" title="cheshire3.tokenizer.Regexp\lFindTokenizer" alt="" coords="849,187,1036,229"/>
+<area shape="rect" id="node20" href="$classcheshire3_1_1tokenizer_1_1_regexp_split_tokenizer.html" title="cheshire3.tokenizer.Regexp\lSplitTokenizer" alt="" coords="849,253,1036,294"/>
+<area shape="rect" id="node21" href="$classcheshire3_1_1tokenizer_1_1_regexp_sub_tokenizer.html" title="cheshire3.tokenizer.Regexp\lSubTokenizer" alt="" coords="849,318,1036,359"/>
+<area shape="rect" id="node22" href="$classcheshire3_1_1tokenizer_1_1_sentence_tokenizer.html" title="cheshire3.tokenizer.Sentence\lTokenizer" alt="" coords="844,383,1041,425"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1lucene_1_1tokenizer_1_1_lucene_offset_tokenizer.html" title="cheshire3.lucene.tokenizer.\lLuceneOffsetTokenizer" alt="" coords="1109,579,1293,621"/>
+<area shape="rect" id="node15" href="$classcheshire3_1_1textmining_1_1tokenizer_1_1_phrase_unparsed_genia_tokenizer.html" title="cheshire3.textmining.tokenizer.\lPhraseUnparsedGeniaTokenizer" alt="" coords="1093,645,1309,686"/>
+<area shape="rect" id="node17" href="$classcheshire3_1_1tokenizer_1_1_date_range_tokenizer.html" title="cheshire3.tokenizer.Date\lRangeTokenizer" alt="" coords="1117,775,1286,817"/>
+</map>

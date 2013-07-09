@@ -1,0 +1,43 @@
+\hypertarget{namespacecheshire3_1_1tokenizer}{\section{cheshire3.\-tokenizer Namespace Reference}
+\label{namespacecheshire3_1_1tokenizer}\index{cheshire3.\-tokenizer@{cheshire3.\-tokenizer}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_simple_tokenizer}{Simple\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_offset_tokenizer}{Offset\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_regexp_sub_tokenizer}{Regexp\-Sub\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_regexp_split_tokenizer}{Regexp\-Split\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_regexp_find_tokenizer}{Regexp\-Find\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_regexp_find_offset_tokenizer}{Regexp\-Find\-Offset\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_regexp_find_punctuation_offset_tokenizer}{Regexp\-Find\-Punctuation\-Offset\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_sentence_tokenizer}{Sentence\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_line_tokenizer}{Line\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_date_tokenizer}{Date\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_date_range_tokenizer}{Date\-Range\-Tokenizer}
+\item 
+class \hyperlink{classcheshire3_1_1tokenizer_1_1_python_tokenizer}{Python\-Tokenizer}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Cheshire3 Tokenizer Implementations.
+
+A Tokenizer converts a string to a list of tokens. Lists aren't hashable so we
+maintain string key. Also we're very unlikely to duplicate at this point, and
+even if we do it's not important.
+
+A Tokenizer MUST be followed by a TokenMerger merge, however, as Normalizers
+won't know what to do with a list as data.
+\end{DoxyVerb}
+ 

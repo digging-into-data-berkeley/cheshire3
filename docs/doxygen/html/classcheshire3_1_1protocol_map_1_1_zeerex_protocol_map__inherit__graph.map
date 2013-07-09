@@ -1,0 +1,10 @@
+<map id="cheshire3.protocolMap.ZeerexProtocolMap" name="cheshire3.protocolMap.ZeerexProtocolMap">
+<area shape="rect" id="node5" href="$classcheshire3_1_1protocol_map_1_1_c_q_l_protocol_map.html" title="cheshire3.protocolMap.CQLProtocolMap" alt="" coords="875,5,1138,32"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1protocol_map_1_1_update_protocol_map.html" title="cheshire3.protocolMap.Update\lProtocolMap" alt="" coords="905,57,1109,98"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1web_1_1protocol_map_1_1_c3_wep_protocol_map.html" title="cheshire3.web.protocolMap.\lC3WepProtocolMap" alt="" coords="912,122,1101,163"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1web_1_1protocol_map_1_1_o_a_i_p_m_h_protocol_map.html" title="cheshire3.web.protocolMap.\lOAIPMHProtocolMap" alt="" coords="912,187,1101,229"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1web_1_1protocol_map_1_1_z3950_protocol_map.html" title="cheshire3.web.protocolMap.\lZ3950ProtocolMap" alt="" coords="912,253,1101,294"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_protocol_map.html" title="cheshire3.baseObjects.ProtocolMap" alt="" coords="339,129,575,156"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,122,291,163"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="6,129,63,156"/>
+</map>

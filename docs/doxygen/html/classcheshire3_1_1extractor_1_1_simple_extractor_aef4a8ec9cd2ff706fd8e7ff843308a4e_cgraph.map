@@ -1,0 +1,8 @@
+<map id="cheshire3.extractor.SimpleExtractor.process_node" name="cheshire3.extractor.SimpleExtractor.process_node">
+<area shape="rect" id="node2" href="$classcheshire3_1_1corpus_1_1extractor_1_1_tagged_term_extractor.html#a565c83ab7777c0ff238b16f34d13b47e" title="cheshire3.corpus.extractor.\lTaggedTermExtractor._flattenTexts" alt="" coords="251,5,483,46"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1corpus_1_1extractor_1_1_template_term_extractor.html#a23a2e60be0b67770bd2a1a8b0004d6bd" title="cheshire3.corpus.extractor.\lTemplateTermExtractor._flattenTexts" alt="" coords="245,70,488,111"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1extractor_1_1_simple_extractor.html#a3b5d22d3bd0a4a194a21dd3d1349e4d8" title="cheshire3.extractor.Simple\lExtractor._flattenTexts" alt="" coords="277,135,457,177"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1corpus_1_1extractor_1_1_span_x_path_tagged_term_extractor.html#ad62643b78dc7d76c16de849d55f74050" title="cheshire3.corpus.extractor.\lSpanXPathTaggedTermExtractor.\l_getProxLocNode" alt="" coords="255,201,478,257"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1corpus_1_1extractor_1_1_tagged_term_extractor.html#a5106c4556af2286eefba9f968d3fe9f7" title="cheshire3.corpus.extractor.\lTaggedTermExtractor._getProxLocNode" alt="" coords="235,282,498,323"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1extractor_1_1_simple_extractor.html#aea861247deb3f6bb0d760f6f1fbf1e1c" title="cheshire3.extractor.Simple\lExtractor._getProxLocNode" alt="" coords="274,347,459,389"/>
+</map>

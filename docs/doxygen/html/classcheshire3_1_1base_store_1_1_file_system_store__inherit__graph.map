@@ -1,0 +1,8 @@
+<map id="cheshire3.baseStore.FileSystemStore" name="cheshire3.baseStore.FileSystemStore">
+<area shape="rect" id="node7" href="$classcheshire3_1_1document_store_1_1_file_system_document_store.html" title="cheshire3.documentStore.\lFileSystemDocumentStore" alt="" coords="113,427,292,469"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_store_1_1_bdb_store.html" title="cheshire3.baseStore.BdbStore" alt="" coords="101,261,304,288"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_store_1_1_simple_store.html" title="cheshire3.baseStore.Simple\lStore" alt="" coords="108,171,297,213"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="5,81,184,122"/>
+<area shape="rect" id="node5" href="$classobject.html" title="object" alt="" coords="174,5,231,32"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1base_store_1_1_summary_object.html" title="cheshire3.baseStore.Summary\lObject" alt="" coords="208,81,413,122"/>
+</map>

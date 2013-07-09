@@ -1,0 +1,10 @@
+<map id="cheshire3.baseObjects.IndexStore" name="cheshire3.baseObjects.IndexStore">
+<area shape="rect" id="node4" href="$classcheshire3_1_1index_store_1_1_bdb_index_store.html" title="cheshire3.indexStore.Bdb\lIndexStore" alt="" coords="591,6,766,47"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1lucene_1_1index_store_1_1_lucene_index_store.html" title="cheshire3.lucene.indexStore.\lLuceneIndexStore" alt="" coords="582,71,775,113"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1sql_1_1index_store_1_1_postgres_index_store.html" title="cheshire3.sql.indexStore.\lPostgresIndexStore" alt="" coords="593,137,765,178"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1test_1_1test_index_1_1_fake_index_store.html" title="cheshire3.test.testIndex.\lFakeIndexStore" alt="" coords="595,202,762,243"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,71,291,113"/>
+<area shape="rect" id="node3" href="$classobject.html" title="object" alt="" coords="6,79,63,105"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_index_store.html" title="cheshire3.grid.irodsStore.\lIrodsIndexStore" alt="" coords="824,6,997,47"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1grid_1_1srb_index_1_1_srb_bdb_index_store.html" title="cheshire3.grid.srbIndex.\lSrbBdbIndexStore" alt="" coords="829,71,993,113"/>
+</map>

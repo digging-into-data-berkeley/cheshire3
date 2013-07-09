@@ -1,0 +1,9 @@
+<map id="cheshire3.grid.irodsStore.IrodsObjectStore" name="cheshire3.grid.irodsStore.IrodsObjectStore">
+<area shape="rect" id="node2" href="$classcheshire3_1_1object_store_1_1_simple_object_store.html" title="cheshire3.objectStore.Simple\lObjectStore" alt="" coords="177,534,372,575"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1base_objects_1_1_object_store.html" title="cheshire3.baseObjects.Object\lStore" alt="" coords="124,441,324,482"/>
+<area shape="rect" id="node4" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="135,215,313,257"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1base_store_1_1_simple_store.html" title="cheshire3.baseStore.Simple\lStore" alt="" coords="407,441,596,482"/>
+<area shape="rect" id="node5" href="$classobject.html" title="object" alt="" coords="5,5,61,32"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1base_store_1_1_summary_object.html" title="cheshire3.baseStore.Summary\lObject" alt="" coords="399,215,604,257"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_store.html" title="cheshire3.grid.irodsStore.\lIrodsStore" alt="" coords="415,534,588,575"/>
+</map>

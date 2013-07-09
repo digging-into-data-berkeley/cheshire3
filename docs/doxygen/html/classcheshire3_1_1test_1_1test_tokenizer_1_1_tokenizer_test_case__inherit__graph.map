@@ -1,0 +1,15 @@
+<map id="cheshire3.test.testTokenizer.TokenizerTestCase" name="cheshire3.test.testTokenizer.TokenizerTestCase">
+<area shape="rect" id="node4" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_date_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lDateTokenizerTestCase" alt="" coords="652,5,844,46"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_offset_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lOffsetTokenizerTestCase" alt="" coords="652,70,844,111"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_regexp_find_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lRegexpFindTokenizerTestCase" alt="" coords="643,135,853,177"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_regexp_split_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lRegexpSplitTokenizerTestCase" alt="" coords="643,201,853,242"/>
+<area shape="rect" id="node12" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_regexp_sub_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lRegexpSubTokenizerTestCase" alt="" coords="645,266,851,307"/>
+<area shape="rect" id="node13" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_sentence_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lSentenceTokenizerTestCase" alt="" coords="651,331,845,373"/>
+<area shape="rect" id="node14" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_simple_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lSimpleTokenizerTestCase" alt="" coords="652,397,844,438"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1test_1_1test_config_parser_1_1_cheshire3_object_test_case.html" title="cheshire3.test.testConfig\lParser.Cheshire3ObjectTestCase" alt="" coords="133,201,355,242"/>
+<area shape="rect" id="node5" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_date_range_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lDateRangeTokenizerTestCase" alt="" coords="923,5,1128,46"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_python_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lPythonTokenizerTestCase" alt="" coords="929,70,1121,111"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_regexp_find_offset_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lRegexpFindOffsetTokenizerTestCase" alt="" coords="903,135,1148,177"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_regexp_find_punctuation_offset_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lRegexpFindPunctuationOffsetTokenizer\lTestCase" alt="" coords="1197,128,1456,184"/>
+<area shape="rect" id="node15" href="$classcheshire3_1_1test_1_1test_tokenizer_1_1_underscore_simple_tokenizer_test_case.html" title="cheshire3.test.testTokenizer.\lUnderscoreSimpleTokenizerTestCase" alt="" coords="902,397,1149,438"/>
+</map>

@@ -1,0 +1,142 @@
+\hypertarget{classcheshire3_1_1base_objects_1_1_extractor}{\section{cheshire3.\-base\-Objects.\-Extractor Class Reference}
+\label{classcheshire3_1_1base_objects_1_1_extractor}\index{cheshire3.\-base\-Objects.\-Extractor@{cheshire3.\-base\-Objects.\-Extractor}}
+}
+
+
+Inheritance diagram for cheshire3.\-base\-Objects.\-Extractor\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_extractor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for cheshire3.\-base\-Objects.\-Extractor\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{classcheshire3_1_1base_objects_1_1_extractor__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_extractor_a4fc29b716e1f858845da471532efcc29}{process\-\_\-string}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_extractor_abe58fb4256ab9adc9dc5efb3547e445c}{process\-\_\-node}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_extractor_a4d0d105e26451043cc063b0c4a7a1318}{process\-\_\-event\-List}
+\item 
+def \hyperlink{classcheshire3_1_1base_objects_1_1_extractor_a7778f0cb1e5959b0cc9c3829e2d8b748}{process\-\_\-xpath\-Result}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}An Extractor takes selected data and returns extracted values.
+
+An Extractor is a processing object called by an Index with the value 
+returned by a Selector, and extracts the values into an appropriate data 
+structure (a dictionary/hash/associative array).
+
+Example Extractors might extract all text from within a DOM node / etree 
+Element, or select all text that occurs between a pair of selected DOM 
+nodes / etree Elements.
+
+Extractors must also be used on the query terms to apply the same keyword 
+processing rules, for example.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcheshire3_1_1base_objects_1_1_extractor_a4d0d105e26451043cc063b0c4a7a1318}{\index{cheshire3\-::base\-Objects\-::\-Extractor@{cheshire3\-::base\-Objects\-::\-Extractor}!process\-\_\-event\-List@{process\-\_\-event\-List}}
+\index{process\-\_\-event\-List@{process\-\_\-event\-List}!cheshire3::baseObjects::Extractor@{cheshire3\-::base\-Objects\-::\-Extractor}}
+\subsubsection[{process\-\_\-event\-List}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Extractor.\-process\-\_\-event\-List (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{data}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_extractor_a4d0d105e26451043cc063b0c4a7a1318}
+\begin{DoxyVerb}Process a list of SAX events serialized in C3 internal format.\end{DoxyVerb}
+ 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_extractor_a4d0d105e26451043cc063b0c4a7a1318_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_extractor_abe58fb4256ab9adc9dc5efb3547e445c}{\index{cheshire3\-::base\-Objects\-::\-Extractor@{cheshire3\-::base\-Objects\-::\-Extractor}!process\-\_\-node@{process\-\_\-node}}
+\index{process\-\_\-node@{process\-\_\-node}!cheshire3::baseObjects::Extractor@{cheshire3\-::base\-Objects\-::\-Extractor}}
+\subsubsection[{process\-\_\-node}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Extractor.\-process\-\_\-node (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{data}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_extractor_abe58fb4256ab9adc9dc5efb3547e445c}
+\begin{DoxyVerb}Process a DOM node.\end{DoxyVerb}
+ 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_extractor_abe58fb4256ab9adc9dc5efb3547e445c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_extractor_a4fc29b716e1f858845da471532efcc29}{\index{cheshire3\-::base\-Objects\-::\-Extractor@{cheshire3\-::base\-Objects\-::\-Extractor}!process\-\_\-string@{process\-\_\-string}}
+\index{process\-\_\-string@{process\-\_\-string}!cheshire3::baseObjects::Extractor@{cheshire3\-::base\-Objects\-::\-Extractor}}
+\subsubsection[{process\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Extractor.\-process\-\_\-string (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{data}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_extractor_a4fc29b716e1f858845da471532efcc29}
+\begin{DoxyVerb}Process and return the value of a raw string.
+
+e.g. from an attribute value or the query.
+\end{DoxyVerb}
+ 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcheshire3_1_1base_objects_1_1_extractor_a4fc29b716e1f858845da471532efcc29_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcheshire3_1_1base_objects_1_1_extractor_a7778f0cb1e5959b0cc9c3829e2d8b748}{\index{cheshire3\-::base\-Objects\-::\-Extractor@{cheshire3\-::base\-Objects\-::\-Extractor}!process\-\_\-xpath\-Result@{process\-\_\-xpath\-Result}}
+\index{process\-\_\-xpath\-Result@{process\-\_\-xpath\-Result}!cheshire3::baseObjects::Extractor@{cheshire3\-::base\-Objects\-::\-Extractor}}
+\subsubsection[{process\-\_\-xpath\-Result}]{\setlength{\rightskip}{0pt plus 5cm}def cheshire3.\-base\-Objects.\-Extractor.\-process\-\_\-xpath\-Result (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{session, }
+\item[{}]{data}
+\end{DoxyParamCaption}
+)}}\label{classcheshire3_1_1base_objects_1_1_extractor_a7778f0cb1e5959b0cc9c3829e2d8b748}
+\begin{DoxyVerb}Process the result of an XPath expression.
+
+Convenience function to wrap the other process_* functions and do type
+checking.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+cheshire3/base\-Objects.\-py\end{DoxyCompactItemize}

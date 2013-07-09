@@ -1,0 +1,12 @@
+<map id="cheshire3.baseObjects.ResultSetStore" name="cheshire3.baseObjects.ResultSetStore">
+<area shape="rect" id="node5" href="$classcheshire3_1_1result_set_store_1_1_simple_result_set_store.html" title="cheshire3.resultSetStore.\lSimpleResultSetStore" alt="" coords="837,103,1009,145"/>
+<area shape="rect" id="node10" href="$classcheshire3_1_1sql_1_1sqlite_1_1_trivial_sqlite_result_set_store.html" title="cheshire3.sql.sqlite.Trivial\lSqliteResultSetStore" alt="" coords="835,169,1010,210"/>
+<area shape="rect" id="node2" href="$classcheshire3_1_1base_objects_1_1_object_store.html" title="cheshire3.baseObjects.Object\lStore" alt="" coords="339,137,539,178"/>
+<area shape="rect" id="node3" href="$classcheshire3_1_1config_parser_1_1_c3_object.html" title="cheshire3.configParser.C3\lObject" alt="" coords="112,137,291,178"/>
+<area shape="rect" id="node4" href="$classobject.html" title="object" alt="" coords="6,144,63,171"/>
+<area shape="rect" id="node6" href="$classcheshire3_1_1grid_1_1irods_store_1_1_irods_result_set_store.html" title="cheshire3.grid.irodsStore.\lIrodsResultSetStore" alt="" coords="1068,5,1241,46"/>
+<area shape="rect" id="node7" href="$classcheshire3_1_1result_set_store_1_1_bdb_result_set_store.html" title="cheshire3.resultSetStore.\lBdbResultSetStore" alt="" coords="1069,70,1241,111"/>
+<area shape="rect" id="node9" href="$classcheshire3_1_1sql_1_1result_set_store_1_1_postgres_result_set_store.html" title="cheshire3.sql.resultSetStore.\lPostgresResultSetStore" alt="" coords="1059,135,1251,177"/>
+<area shape="rect" id="node8" href="$classcheshire3_1_1result_set_store_1_1_bdb_result_set_store2.html" title="cheshire3.resultSetStore.\lBdbResultSetStore2" alt="" coords="1299,70,1471,111"/>
+<area shape="rect" id="node11" href="$classcheshire3_1_1sql_1_1sqlite_1_1_simple_sqlite_result_set_store.html" title="cheshire3.sql.sqlite.Simple\lSqliteResultSetStore" alt="" coords="1065,201,1245,242"/>
+</map>
