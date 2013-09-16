@@ -778,7 +778,7 @@ Transforming Records
 ''''''''''''''''''''
 
 Records can be processed back into documents, typically in a different
-form, using Transformers:::
+form, using Transformers::
 
     >>> dctxr = db.get_object(session, 'DublinCoreTxr')
     >>> doc = dctxr.process_record(session, rec)
